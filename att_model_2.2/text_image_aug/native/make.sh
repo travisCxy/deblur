@@ -1,0 +1,4 @@
+
+OPENCV_FLAGS=`pkg-config --libs opencv`
+#g++ -O2 -shared -std=c++11 -D_GLIBCXX_USE_CXX11_ABI=0 -fPIC -o Augment.so  src/Augment.cpp src/conversion.cpp  src/imgwarp_mls.cpp  src/imgwarp_mls_similarity.cpp -I /mnt/data1/boost174/include  -I ./include -I /usr/include -I /usr/include/python3.7 -I /usr/local/lib/python3.7/dist-packages/numpy/core/include -I /usr/local/include -L /mnt/data1/boost174/lib -l boost_python37 $OPENCV_FLAGS
+g++ -O2 -shared -std=c++11 -D_GLIBCXX_USE_CXX11_ABI=0 -fPIC -o Augment.so  src/Augment.cpp src/conversion.cpp  src/imgwarp_mls.cpp  src/imgwarp_mls_similarity.cpp -I /mnt/data1/boost174/include  -I ./include -I /usr/include -I /usr/include/python3.8 -I /usr/local/lib/python3.8/dist-packages/numpy/core/include -I /usr/local/include -L /mnt/data1/boost174/lib -l boost_python37 $OPENCV_FLAGS

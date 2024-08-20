@@ -1,0 +1,97 @@
+服务器账号密码：
+ateam@10.33.10.64 #k^P9w]QA1z~fpeDWQv+
+ateam@10.33.10.38 AuJWYES6rbkF
+samba 账户:ateam 密码:glority
+deploy@10.33.1.84: ae2q1c23e
+
+copolit github账户:
+github.6@danatech.com dvGXz7QAcGqP
+
+nas账户密码：
+corp/chen.xiangyang
+2CabBRPc
+
+
+数据：
+\\nas.danatech.com\Share
+
+文件数量:
+ls -lR| grep "^-" | wc -l
+
+软链接
+ln  -s  [源文件或目录]  [目标文件或目录]
+
+服务器挂载:
+sshfs user@ip:/home/hogan/work /home/hogan/work
+
+
+磁盘挂载:
+cd .
+sudo mount -t ceph 10.33.4.1,10.33.4.2,10.33.4.3:/chen.xiangyang /mnt/server_data -o name=user.chen.xiangyang,secret=AQAou5pjBv4aLxAAG6whbqWzmUiN/iI9otYMfw==
+sudo mount -t ceph 10.33.7.7,10.33.7.8,10.33.7.9:/volumes/ateam/chen.xiangyang/71118db3-92b4-449a-9adc-b862fb006d75 /mnt/server_data2 -o name=user.chen.xiangyang,secret=AQDPURZmBbaHKRAAko3Y34WzbJE/kA87Zj0AaA==
+sudo mount -t ceph 10.33.4.1,10.33.4.2,10.33.4.3:/wu.changqing /mnt/ceph -o name=user.wu.changqing,secret=AQD9thxiuyWAHBAAt9HlbQf9hkDeOFRsGcezYQ==
+sudo mount -t cifs -o uid=ateam,username=danatech.biaozhu,password=SGBGD5REYJ,iocharset=utf8 //nas.danatech.com/DanaBiaozhu /mnt/danatech_data
+sudo mount   //nas.danatech.com/DanaBiaozhu /mnt/danatech_data  -o name=danatech.biaozhu,secret=SGBGD5REYJ
+
+oss本地地址（测试用）
+https://sjb-files.danatech.cn/test/local/chenxiangyang/5dcbcd5c-2d24-4a0b-ba97-090122b304f9.docx
+
+
+查看端口占用：lsof -i:6003
+
+git地址：
+试卷宝引擎:https://gitlab.danatech.cn/ateam/shijuanbao_engine
+word_generator:https://gitlab.danatech.cn/shijuanbao/server/word-generator/-/tree/feature/2967-update-header
+
+
+周报:https://l6mqjm2wpy.feishu.cn/wiki/wikcnnpW0mnkWkAQsCC5uv8RcYg?source_type=message&from=message
+
+docker 开启容器:
+#docker run --name=det_train --runtime=nvidia -e CUDA_VISIBLE_DEVICES=0,1,2,3,4,5,6,7 --ipc=host --privileged --net=host -it  21d1065bfe8f -v $(pwd)/triton:/triton
+docker run --name=det_train --runtime=nvidia -e CUDA_VISIBLE_DEVICES=0,1,2,3,4,5,6,7 -v /mnt:/mnt --ipc=host --net=host --privileged -it  21d1065bfe8f /bin/bash
+
+
+docker exec -it containerID /bin/bash
+docker export 7691a814370e > ubuntu.tar  容器导出为镜像文件
+cat ubuntu.tar | docker import - test/ubuntu:v1.0 导入镜像文件
+从dockerfile创建镜像
+docker build -t runoob/ubuntu:v1 . 
+
+screen杀死窗口：
+screen -S screenID -X quit
+
+docker远程ip:
+docker inspect  ID
+ocr_train:172.17.0.3
+
+tail -n 50 notes.log
+
+tensorboard远程：
+ssh -L 6006:127.0.0.1:6006 ateam@10.33.10.38
+
+
+试卷宝模型上传s3:
+python3.7 scripts/upload_obj.py --version 2023-07-24 -l triton/models/pp_model -r s3://aizuoye-models/shijuanbao_engine/triton/models/pp_model --profile user.deploy
+-l为当前模型以及配置文件所在路径
+目录结构
+pp_model
+  --20230724
+  --config.pbtxt
+  
+  
+ 
+  
+bazel build -c opt --fat_apk_cpu=x86,x86_64,arm64-v8a,armeabi-v7a --host_crosstool_top=@bazel_tools//tools/cpp:toolchain //tensorflow/lite/java:tensorflow-lite
+rsync -avr -e "ssh -i /mnt/server_data2/software/ssh/id_rsa"  . root@10.204.53.73:/mnt/data5/cxy/RHINO/tools
+  
+
+rename命令
+rename -n 's/Sam3/Stm32/' *.nc　　/*确认需要重命名的文件*/
+rename -v 's/Sam3/Stm32/' *.nc　　/*执行修改，并列出已重命名的文件*/
+
+python export.py --weights weights/yolov7-tiny.pt --grid --end2end --simplify  --topk-all 100 --iou-thres 0.65 --conf-thres 0.35 --img-size 640 640 --max-wh 640
+
+
+docker修改data root:dockhttps://www.cnblogs.com/hellxz/p/docker-change-data-root.html
+
+

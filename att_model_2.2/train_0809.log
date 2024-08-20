@@ -1,0 +1,1336 @@
+2024-08-09 09:56:27.803805: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcudart.so.11.0
+[1,3]<stderr>:2024-08-09 09:56:29.770188: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcudart.so.11.0
+[1,2]<stderr>:2024-08-09 09:56:29.842195: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcudart.so.11.0
+[1,0]<stderr>:2024-08-09 09:56:29.843241: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcudart.so.11.0
+[1,4]<stderr>:2024-08-09 09:56:29.862733: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcudart.so.11.0
+[1,1]<stderr>:2024-08-09 09:56:29.878927: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcudart.so.11.0
+[1,5]<stderr>:2024-08-09 09:56:29.881285: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcudart.so.11.0
+[1,3]<stderr>:2024-08-09 09:56:30.646189: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcuda.so.1
+[1,4]<stderr>:2024-08-09 09:56:30.646419: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcuda.so.1
+[1,5]<stderr>:2024-08-09 09:56:30.646609: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcuda.so.1
+[1,2]<stderr>:2024-08-09 09:56:30.646710: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcuda.so.1
+[1,1]<stderr>:2024-08-09 09:56:30.646824: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcuda.so.1
+[1,0]<stderr>:2024-08-09 09:56:30.647331: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcuda.so.1
+[1,4]<stderr>:2024-08-09 09:56:32.888255: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1742] Found device 0 with properties: 
+[1,4]<stderr>:pciBusID: 0000:0e:00.0 name: NVIDIA A100-SXM4-40GB computeCapability: 8.0
+[1,4]<stderr>:coreClock: 1.41GHz coreCount: 108 deviceMemorySize: 39.39GiB deviceMemoryBandwidth: 1.41TiB/s
+[1,4]<stderr>:2024-08-09 09:56:32.899881: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1742] Found device 1 with properties: 
+[1,4]<stderr>:pciBusID: 0000:13:00.0 name: NVIDIA A100-SXM4-40GB computeCapability: 8.0
+[1,4]<stderr>:coreClock: 1.41GHz coreCount: 108 deviceMemorySize: 39.39GiB deviceMemoryBandwidth: 1.41TiB/s
+[1,5]<stderr>:2024-08-09 09:56:32.909261: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1742] Found device 0 with properties: 
+[1,5]<stderr>:pciBusID: 0000:0e:00.0 name: NVIDIA A100-SXM4-40GB computeCapability: 8.0
+[1,5]<stderr>:coreClock: 1.41GHz coreCount: 108 deviceMemorySize: 39.39GiB deviceMemoryBandwidth: 1.41TiB/s
+[1,4]<stderr>:2024-08-09 09:56:32.918429: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1742] Found device 2 with properties: 
+[1,4]<stderr>:pciBusID: 0000:4a:00.0 name: NVIDIA A100-SXM4-40GB computeCapability: 8.0
+[1,4]<stderr>:coreClock: 1.41GHz coreCount: 108 deviceMemorySize: 39.39GiB deviceMemoryBandwidth: 1.41TiB/s
+[1,5]<stderr>:2024-08-09 09:56:32.919882: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1742] Found device 1 with properties: 
+[1,5]<stderr>:pciBusID: 0000:13:00.0 name: NVIDIA A100-SXM4-40GB computeCapability: 8.0
+[1,5]<stderr>:coreClock: 1.41GHz coreCount: 108 deviceMemorySize: 39.39GiB deviceMemoryBandwidth: 1.41TiB/s
+[1,0]<stderr>:2024-08-09 09:56:32.921755: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1742] Found device 0 with properties: 
+[1,0]<stderr>:pciBusID: 0000:0e:00.0 name: NVIDIA A100-SXM4-40GB computeCapability: 8.0
+[1,0]<stderr>:coreClock: 1.41GHz coreCount: 108 deviceMemorySize: 39.39GiB deviceMemoryBandwidth: 1.41TiB/s
+[1,4]<stderr>:2024-08-09 09:56:32.924273: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1742] Found device 3 with properties: 
+[1,4]<stderr>:pciBusID: 0000:50:00.0 name: NVIDIA A100-SXM4-40GB computeCapability: 8.0
+[1,4]<stderr>:coreClock: 1.41GHz coreCount: 108 deviceMemorySize: 39.39GiB deviceMemoryBandwidth: 1.41TiB/s
+[1,5]<stderr>:2024-08-09 09:56:32.927640: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1742] Found device 2 with properties: 
+[1,5]<stderr>:pciBusID: 0000:4a:00.0 name: NVIDIA A100-SXM4-40GB computeCapability: 8.0
+[1,5]<stderr>:coreClock: 1.41GHz coreCount: 108 deviceMemorySize: 39.39GiB deviceMemoryBandwidth: 1.41TiB/s
+[1,0]<stderr>:2024-08-09 09:56:32.927994: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1742] Found device 1 with properties: 
+[1,0]<stderr>:pciBusID: 0000:13:00.0 name: NVIDIA A100-SXM4-40GB computeCapability: 8.0
+[1,0]<stderr>:coreClock: 1.41GHz coreCount: 108 deviceMemorySize: 39.39GiB deviceMemoryBandwidth: 1.41TiB/s
+[1,3]<stderr>:2024-08-09 09:56:32.928047: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1742] Found device 0 with properties: 
+[1,3]<stderr>:pciBusID: 0000:0e:00.0 name: NVIDIA A100-SXM4-40GB computeCapability: 8.0
+[1,3]<stderr>:coreClock: 1.41GHz coreCount: 108 deviceMemorySize: 39.39GiB deviceMemoryBandwidth: 1.41TiB/s
+[1,4]<stderr>:2024-08-09 09:56:32.931863: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1742] Found device 4 with properties: 
+[1,4]<stderr>:pciBusID: 0000:93:00.0 name: NVIDIA A100-SXM4-40GB computeCapability: 8.0
+[1,4]<stderr>:coreClock: 1.41GHz coreCount: 108 deviceMemorySize: 39.39GiB deviceMemoryBandwidth: 1.41TiB/s
+[1,5]<stderr>:2024-08-09 09:56:32.935016: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1742] Found device 3 with properties: 
+[1,5]<stderr>:pciBusID: 0000:50:00.0 name: NVIDIA A100-SXM4-40GB computeCapability: 8.0
+[1,5]<stderr>:coreClock: 1.41GHz coreCount: 108 deviceMemorySize: 39.39GiB deviceMemoryBandwidth: 1.41TiB/s
+[1,0]<stderr>:2024-08-09 09:56:32.935639: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1742] Found device 2 with properties: 
+[1,0]<stderr>:pciBusID: 0000:4a:00.0 name: NVIDIA A100-SXM4-40GB computeCapability: 8.0
+[1,0]<stderr>:coreClock: 1.41GHz coreCount: 108 deviceMemorySize: 39.39GiB deviceMemoryBandwidth: 1.41TiB/s
+[1,3]<stderr>:2024-08-09 09:56:32.935648: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1742] Found device 1 with properties: 
+[1,3]<stderr>:pciBusID: 0000:13:00.0 name: NVIDIA A100-SXM4-40GB computeCapability: 8.0
+[1,3]<stderr>:coreClock: 1.41GHz coreCount: 108 deviceMemorySize: 39.39GiB deviceMemoryBandwidth: 1.41TiB/s
+[1,4]<stderr>:2024-08-09 09:56:32.936935: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1742] Found device 5 with properties: 
+[1,4]<stderr>:pciBusID: 0000:99:00.0 name: NVIDIA A100-SXM4-40GB computeCapability: 8.0
+[1,4]<stderr>:coreClock: 1.41GHz coreCount: 108 deviceMemorySize: 39.39GiB deviceMemoryBandwidth: 1.41TiB/s
+[1,4]<stderr>:2024-08-09 09:56:32.936969: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcudart.so.11.0
+[1,4]<stderr>:2024-08-09 09:56:32.940364: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcublas.so.11
+[1,5]<stderr>:2024-08-09 09:56:32.940761: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1742] Found device 4 with properties: 
+[1,5]<stderr>:pciBusID: 0000:93:00.0 name: NVIDIA A100-SXM4-40GB computeCapability: 8.0
+[1,5]<stderr>:coreClock: 1.41GHz coreCount: 108 deviceMemorySize: 39.39GiB deviceMemoryBandwidth: 1.41TiB/s
+[1,4]<stderr>:2024-08-09 09:56:32.941583: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcufft.so.10
+[1,4]<stderr>:2024-08-09 09:56:32.941877: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcurand.so.10
+[1,0]<stderr>:2024-08-09 09:56:32.942340: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1742] Found device 3 with properties: 
+[1,0]<stderr>:pciBusID: 0000:50:00.0 name: NVIDIA A100-SXM4-40GB computeCapability: 8.0
+[1,0]<stderr>:coreClock: 1.41GHz coreCount: 108 deviceMemorySize: 39.39GiB deviceMemoryBandwidth: 1.41TiB/s
+[1,3]<stderr>:2024-08-09 09:56:32.943771: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1742] Found device 2 with properties: 
+[1,3]<stderr>:pciBusID: 0000:4a:00.0 name: NVIDIA A100-SXM4-40GB computeCapability: 8.0
+[1,3]<stderr>:coreClock: 1.41GHz coreCount: 108 deviceMemorySize: 39.39GiB deviceMemoryBandwidth: 1.41TiB/s
+[1,4]<stderr>:2024-08-09 09:56:32.945222: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcusolver.so.11
+[1,4]<stderr>:2024-08-09 09:56:32.946039: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcusparse.so.11
+[1,4]<stderr>:2024-08-09 09:56:32.946210: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcudnn.so.8
+[1,5]<stderr>:2024-08-09 09:56:32.948888: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1742] Found device 5 with properties: 
+[1,5]<stderr>:pciBusID: 0000:99:00.0 name: NVIDIA A100-SXM4-40GB computeCapability: 8.0
+[1,5]<stderr>:coreClock: 1.41GHz coreCount: 108 deviceMemorySize: 39.39GiB deviceMemoryBandwidth: 1.41TiB/s
+[1,5]<stderr>:2024-08-09 09:56:32.948920: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcudart.so.11.0
+[1,0]<stderr>:2024-08-09 09:56:32.949824: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1742] Found device 4 with properties: 
+[1,0]<stderr>:pciBusID: 0000:93:00.0 name: NVIDIA A100-SXM4-40GB computeCapability: 8.0
+[1,0]<stderr>:coreClock: 1.41GHz coreCount: 108 deviceMemorySize: 39.39GiB deviceMemoryBandwidth: 1.41TiB/s
+[1,3]<stderr>:2024-08-09 09:56:32.950880: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1742] Found device 3 with properties: 
+[1,3]<stderr>:pciBusID: 0000:50:00.0 name: NVIDIA A100-SXM4-40GB computeCapability: 8.0
+[1,3]<stderr>:coreClock: 1.41GHz coreCount: 108 deviceMemorySize: 39.39GiB deviceMemoryBandwidth: 1.41TiB/s
+[1,5]<stderr>:2024-08-09 09:56:32.952410: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcublas.so.11
+[1,0]<stderr>:2024-08-09 09:56:32.953430: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1742] Found device 5 with properties: 
+[1,0]<stderr>:pciBusID: 0000:99:00.0 name: NVIDIA A100-SXM4-40GB computeCapability: 8.0
+[1,0]<stderr>:coreClock: 1.41GHz coreCount: 108 deviceMemorySize: 39.39GiB deviceMemoryBandwidth: 1.41TiB/s
+[1,0]<stderr>:2024-08-09 09:56:32.953466: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcudart.so.11.0
+[1,5]<stderr>:2024-08-09 09:56:32.953664: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcufft.so.10
+[1,5]<stderr>:2024-08-09 09:56:32.953968: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcurand.so.10
+[1,1]<stderr>:2024-08-09 09:56:32.954098: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1742] Found device 0 with properties: 
+[1,1]<stderr>:pciBusID: 0000:0e:00.0 name: NVIDIA A100-SXM4-40GB computeCapability: 8.0
+[1,1]<stderr>:coreClock: 1.41GHz coreCount: 108 deviceMemorySize: 39.39GiB deviceMemoryBandwidth: 1.41TiB/s
+[1,3]<stderr>:2024-08-09 09:56:32.954426: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1742] Found device 4 with properties: 
+[1,3]<stderr>:pciBusID: 0000:93:00.0 name: NVIDIA A100-SXM4-40GB computeCapability: 8.0
+[1,3]<stderr>:coreClock: 1.41GHz coreCount: 108 deviceMemorySize: 39.39GiB deviceMemoryBandwidth: 1.41TiB/s
+[1,1]<stderr>:2024-08-09 09:56:32.956551: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1742] Found device 1 with properties: 
+[1,1]<stderr>:pciBusID: 0000:13:00.0 name: NVIDIA A100-SXM4-40GB computeCapability: 8.0
+[1,1]<stderr>:coreClock: 1.41GHz coreCount: 108 deviceMemorySize: 39.39GiB deviceMemoryBandwidth: 1.41TiB/s
+[1,3]<stderr>:2024-08-09 09:56:32.956872: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1742] Found device 5 with properties: 
+[1,3]<stderr>:pciBusID: 0000:99:00.0 name: NVIDIA A100-SXM4-40GB computeCapability: 8.0
+[1,3]<stderr>:coreClock: 1.41GHz coreCount: 108 deviceMemorySize: 39.39GiB deviceMemoryBandwidth: 1.41TiB/s
+[1,3]<stderr>:2024-08-09 09:56:32.956905: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcudart.so.11.0
+[1,5]<stderr>:2024-08-09 09:56:32.957620: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcusolver.so.11
+[1,0]<stderr>:2024-08-09 09:56:32.957830: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcublas.so.11
+[1,5]<stderr>:2024-08-09 09:56:32.958489: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcusparse.so.11
+[1,5]<stderr>:2024-08-09 09:56:32.958678: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcudnn.so.8
+[1,0]<stderr>:2024-08-09 09:56:32.959068: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcufft.so.10
+[1,1]<stderr>:2024-08-09 09:56:32.959074: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1742] Found device 2 with properties: 
+[1,1]<stderr>:pciBusID: 0000:4a:00.0 name: NVIDIA A100-SXM4-40GB computeCapability: 8.0
+[1,1]<stderr>:coreClock: 1.41GHz coreCount: 108 deviceMemorySize: 39.39GiB deviceMemoryBandwidth: 1.41TiB/s
+[1,0]<stderr>:2024-08-09 09:56:32.959361: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcurand.so.10
+[1,2]<stderr>:2024-08-09 09:56:32.959598: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1742] Found device 0 with properties: 
+[1,2]<stderr>:pciBusID: 0000:0e:00.0 name: NVIDIA A100-SXM4-40GB computeCapability: 8.0
+[1,2]<stderr>:coreClock: 1.41GHz coreCount: 108 deviceMemorySize: 39.39GiB deviceMemoryBandwidth: 1.41TiB/s
+[1,3]<stderr>:2024-08-09 09:56:32.960681: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcublas.so.11
+[1,1]<stderr>:2024-08-09 09:56:32.961400: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1742] Found device 3 with properties: 
+[1,1]<stderr>:pciBusID: 0000:50:00.0 name: NVIDIA A100-SXM4-40GB computeCapability: 8.0
+[1,1]<stderr>:coreClock: 1.41GHz coreCount: 108 deviceMemorySize: 39.39GiB deviceMemoryBandwidth: 1.41TiB/s
+[1,3]<stderr>:2024-08-09 09:56:32.961924: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcufft.so.10
+[1,3]<stderr>:2024-08-09 09:56:32.962229: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcurand.so.10
+[1,2]<stderr>:2024-08-09 09:56:32.962241: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1742] Found device 1 with properties: 
+[1,2]<stderr>:pciBusID: 0000:13:00.0 name: NVIDIA A100-SXM4-40GB computeCapability: 8.0
+[1,2]<stderr>:coreClock: 1.41GHz coreCount: 108 deviceMemorySize: 39.39GiB deviceMemoryBandwidth: 1.41TiB/s
+[1,0]<stderr>:2024-08-09 09:56:32.962728: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcusolver.so.11
+[1,0]<stderr>:2024-08-09 09:56:32.963603: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcusparse.so.11
+[1,1]<stderr>:2024-08-09 09:56:32.963663: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1742] Found device 4 with properties: 
+[1,1]<stderr>:pciBusID: 0000:93:00.0 name: NVIDIA A100-SXM4-40GB computeCapability: 8.0
+[1,1]<stderr>:coreClock: 1.41GHz coreCount: 108 deviceMemorySize: 39.39GiB deviceMemoryBandwidth: 1.41TiB/s
+[1,0]<stderr>:2024-08-09 09:56:32.963773: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcudnn.so.8
+[1,2]<stderr>:2024-08-09 09:56:32.964884: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1742] Found device 2 with properties: 
+[1,2]<stderr>:pciBusID: 0000:4a:00.0 name: NVIDIA A100-SXM4-40GB computeCapability: 8.0
+[1,2]<stderr>:coreClock: 1.41GHz coreCount: 108 deviceMemorySize: 39.39GiB deviceMemoryBandwidth: 1.41TiB/s
+[1,3]<stderr>:2024-08-09 09:56:32.965650: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcusolver.so.11
+[1,3]<stderr>:2024-08-09 09:56:32.966546: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcusparse.so.11
+[1,3]<stderr>:2024-08-09 09:56:32.966729: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcudnn.so.8
+[1,2]<stderr>:2024-08-09 09:56:32.967164: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1742] Found device 3 with properties: 
+[1,2]<stderr>:pciBusID: 0000:50:00.0 name: NVIDIA A100-SXM4-40GB computeCapability: 8.0
+[1,2]<stderr>:coreClock: 1.41GHz coreCount: 108 deviceMemorySize: 39.39GiB deviceMemoryBandwidth: 1.41TiB/s
+[1,1]<stderr>:2024-08-09 09:56:32.967666: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1742] Found device 5 with properties: 
+[1,1]<stderr>:pciBusID: 0000:99:00.0 name: NVIDIA A100-SXM4-40GB computeCapability: 8.0
+[1,1]<stderr>:coreClock: 1.41GHz coreCount: 108 deviceMemorySize: 39.39GiB deviceMemoryBandwidth: 1.41TiB/s
+[1,1]<stderr>:2024-08-09 09:56:32.967686: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcudart.so.11.0
+[1,2]<stderr>:2024-08-09 09:56:32.969452: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1742] Found device 4 with properties: 
+[1,2]<stderr>:pciBusID: 0000:93:00.0 name: NVIDIA A100-SXM4-40GB computeCapability: 8.0
+[1,2]<stderr>:coreClock: 1.41GHz coreCount: 108 deviceMemorySize: 39.39GiB deviceMemoryBandwidth: 1.41TiB/s
+[1,1]<stderr>:2024-08-09 09:56:32.970166: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcublas.so.11
+[1,1]<stderr>:2024-08-09 09:56:32.970988: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcufft.so.10
+[1,1]<stderr>:2024-08-09 09:56:32.971189: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcurand.so.10
+[1,2]<stderr>:2024-08-09 09:56:32.971819: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1742] Found device 5 with properties: 
+[1,2]<stderr>:pciBusID: 0000:99:00.0 name: NVIDIA A100-SXM4-40GB computeCapability: 8.0
+[1,2]<stderr>:coreClock: 1.41GHz coreCount: 108 deviceMemorySize: 39.39GiB deviceMemoryBandwidth: 1.41TiB/s
+[1,2]<stderr>:2024-08-09 09:56:32.971841: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcudart.so.11.0
+[1,1]<stderr>:2024-08-09 09:56:32.973519: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcusolver.so.11
+[1,1]<stderr>:2024-08-09 09:56:32.974115: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcusparse.so.11
+[1,1]<stderr>:2024-08-09 09:56:32.974236: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcudnn.so.8
+[1,2]<stderr>:2024-08-09 09:56:32.974472: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcublas.so.11
+[1,2]<stderr>:2024-08-09 09:56:32.975318: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcufft.so.10
+[1,2]<stderr>:2024-08-09 09:56:32.975532: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcurand.so.10
+[1,2]<stderr>:2024-08-09 09:56:32.977926: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcusolver.so.11
+[1,2]<stderr>:2024-08-09 09:56:32.978556: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcusparse.so.11
+[1,2]<stderr>:2024-08-09 09:56:32.978688: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcudnn.so.8
+[1,4]<stderr>:2024-08-09 09:56:32.990662: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1884] Adding visible gpu devices: 0, 1, 2, 3, 4, 5
+[1,4]<stdout>:[PhysicalDevice(name='/physical_device:GPU:0', device_type='GPU'), PhysicalDevice(name='/physical_device:GPU:1', device_type='GPU'), PhysicalDevice(name='/physical_device:GPU:2', device_type='GPU'), PhysicalDevice(name='/physical_device:GPU:3', device_type='GPU'), PhysicalDevice(name='/physical_device:GPU:4', device_type='GPU'), PhysicalDevice(name='/physical_device:GPU:5', device_type='GPU')]
+[1,5]<stderr>:2024-08-09 09:56:32.993285: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1884] Adding visible gpu devices: 0, 1, 2, 3, 4, 5
+[1,5]<stdout>:[PhysicalDevice(name='/physical_device:GPU:0', device_type='GPU'), PhysicalDevice(name='/physical_device:GPU:1', device_type='GPU'), PhysicalDevice(name='/physical_device:GPU:2', device_type='GPU'), PhysicalDevice(name='/physical_device:GPU:3', device_type='GPU'), PhysicalDevice(name='/physical_device:GPU:4', device_type='GPU'), PhysicalDevice(name='/physical_device:GPU:5', device_type='GPU')]
+[1,0]<stderr>:2024-08-09 09:56:33.000079: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1884] Adding visible gpu devices: 0, 1, 2, 3, 4, 5
+[1,0]<stdout>:[PhysicalDevice(name='/physical_device:GPU:0', device_type='GPU'), PhysicalDevice(name='/physical_device:GPU:1', device_type='GPU'), PhysicalDevice(name='/physical_device:GPU:2', device_type='GPU'), PhysicalDevice(name='/physical_device:GPU:3', device_type='GPU'), PhysicalDevice(name='/physical_device:GPU:4', device_type='GPU'), PhysicalDevice(name='/physical_device:GPU:5', device_type='GPU')]
+[1,3]<stderr>:2024-08-09 09:56:33.003417: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1884] Adding visible gpu devices: 0, 1, 2, 3, 4, 5
+[1,3]<stdout>:[PhysicalDevice(name='/physical_device:GPU:0', device_type='GPU'), PhysicalDevice(name='/physical_device:GPU:1', device_type='GPU'), PhysicalDevice(name='/physical_device:GPU:2', device_type='GPU'), PhysicalDevice(name='/physical_device:GPU:3', device_type='GPU'), PhysicalDevice(name='/physical_device:GPU:4', device_type='GPU'), PhysicalDevice(name='/physical_device:GPU:5', device_type='GPU')]
+[1,1]<stderr>:2024-08-09 09:56:33.008495: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1884] Adding visible gpu devices: 0, 1, 2, 3, 4, 5
+[1,1]<stdout>:[PhysicalDevice(name='/physical_device:GPU:0', device_type='GPU'), PhysicalDevice(name='/physical_device:GPU:1', device_type='GPU'), PhysicalDevice(name='/physical_device:GPU:2', device_type='GPU'), PhysicalDevice(name='/physical_device:GPU:3', device_type='GPU'), PhysicalDevice(name='/physical_device:GPU:4', device_type='GPU'), PhysicalDevice(name='/physical_device:GPU:5', device_type='GPU')]
+[1,4]<stderr>:2024-08-09 09:56:33.014953: I tensorflow/core/platform/profile_utils/cpu_utils.cc:104] CPU Frequency: 2345695000 Hz
+[1,2]<stderr>:2024-08-09 09:56:33.015133: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1884] Adding visible gpu devices: 0, 1, 2, 3, 4, 5
+[1,2]<stdout>:[PhysicalDevice(name='/physical_device:GPU:0', device_type='GPU'), PhysicalDevice(name='/physical_device:GPU:1', device_type='GPU'), PhysicalDevice(name='/physical_device:GPU:2', device_type='GPU'), PhysicalDevice(name='/physical_device:GPU:3', device_type='GPU'), PhysicalDevice(name='/physical_device:GPU:4', device_type='GPU'), PhysicalDevice(name='/physical_device:GPU:5', device_type='GPU')]
+[1,0]<stderr>:2024-08-09 09:56:33.017185: I tensorflow/core/platform/profile_utils/cpu_utils.cc:104] CPU Frequency: 2345695000 Hz
+[1,4]<stderr>:2024-08-09 09:56:33.021831: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x63cdcd0 initialized for platform Host (this does not guarantee that XLA will be used). Devices:
+[1,4]<stderr>:2024-08-09 09:56:33.021947: I tensorflow/compiler/xla/service/service.cc:176]   StreamExecutor device (0): Host, Default Version
+[1,3]<stderr>:2024-08-09 09:56:33.022270: I tensorflow/core/platform/profile_utils/cpu_utils.cc:104] CPU Frequency: 2345695000 Hz
+[1,0]<stderr>:2024-08-09 09:56:33.023119: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x56e70e0 initialized for platform Host (this does not guarantee that XLA will be used). Devices:
+[1,0]<stderr>:2024-08-09 09:56:33.023188: I tensorflow/compiler/xla/service/service.cc:176]   StreamExecutor device (0): Host, Default Version
+[1,1]<stderr>:2024-08-09 09:56:33.026583: I tensorflow/core/platform/profile_utils/cpu_utils.cc:104] CPU Frequency: 2345695000 Hz
+[1,3]<stderr>:2024-08-09 09:56:33.028543: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x51acd10 initialized for platform Host (this does not guarantee that XLA will be used). Devices:
+[1,3]<stderr>:2024-08-09 09:56:33.028709: I tensorflow/compiler/xla/service/service.cc:176]   StreamExecutor device (0): Host, Default Version
+[1,5]<stderr>:2024-08-09 09:56:33.028999: I tensorflow/core/platform/profile_utils/cpu_utils.cc:104] CPU Frequency: 2345695000 Hz
+[1,1]<stderr>:2024-08-09 09:56:33.032620: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x6392340 initialized for platform Host (this does not guarantee that XLA will be used). Devices:
+[1,1]<stderr>:2024-08-09 09:56:33.032689: I tensorflow/compiler/xla/service/service.cc:176]   StreamExecutor device (0): Host, Default Version
+[1,5]<stderr>:2024-08-09 09:56:33.036874: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x552a040 initialized for platform Host (this does not guarantee that XLA will be used). Devices:
+[1,5]<stderr>:2024-08-09 09:56:33.036912: I tensorflow/compiler/xla/service/service.cc:176]   StreamExecutor device (0): Host, Default Version
+[1,2]<stderr>:2024-08-09 09:56:33.048612: I tensorflow/core/platform/profile_utils/cpu_utils.cc:104] CPU Frequency: 2345695000 Hz
+[1,2]<stderr>:2024-08-09 09:56:33.055431: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x4e160f0 initialized for platform Host (this does not guarantee that XLA will be used). Devices:
+[1,2]<stderr>:2024-08-09 09:56:33.055555: I tensorflow/compiler/xla/service/service.cc:176]   StreamExecutor device (0): Host, Default Version
+[1,3]<stderr>:2024-08-09 09:56:33.844528: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x521a2e0 initialized for platform CUDA (this does not guarantee that XLA will be used). Devices:
+[1,3]<stderr>:2024-08-09 09:56:33.844559: I tensorflow/compiler/xla/service/service.cc:176]   StreamExecutor device (0): NVIDIA A100-SXM4-40GB, Compute Capability 8.0
+[1,3]<stderr>:2024-08-09 09:56:33.848305: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1742] Found device 0 with properties: 
+[1,3]<stderr>:pciBusID: 0000:50:00.0 name: NVIDIA A100-SXM4-40GB computeCapability: 8.0
+[1,3]<stderr>:coreClock: 1.41GHz coreCount: 108 deviceMemorySize: 39.39GiB deviceMemoryBandwidth: 1.41TiB/s
+[1,3]<stderr>:2024-08-09 09:56:33.848360: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcudart.so.11.0
+[1,3]<stderr>:2024-08-09 09:56:33.848414: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcublas.so.11
+[1,3]<stderr>:2024-08-09 09:56:33.848436: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcufft.so.10
+[1,3]<stderr>:2024-08-09 09:56:33.848458: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcurand.so.10
+[1,3]<stderr>:2024-08-09 09:56:33.848478: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcusolver.so.11
+[1,3]<stderr>:2024-08-09 09:56:33.848498: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcusparse.so.11
+[1,3]<stderr>:2024-08-09 09:56:33.848516: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcudnn.so.8
+[1,1]<stderr>:2024-08-09 09:56:33.849239: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x58554d0 initialized for platform CUDA (this does not guarantee that XLA will be used). Devices:
+[1,1]<stderr>:2024-08-09 09:56:33.849281: I tensorflow/compiler/xla/service/service.cc:176]   StreamExecutor device (0): NVIDIA A100-SXM4-40GB, Compute Capability 8.0
+[1,5]<stderr>:2024-08-09 09:56:33.850966: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x49ebb00 initialized for platform CUDA (this does not guarantee that XLA will be used). Devices:
+[1,5]<stderr>:2024-08-09 09:56:33.851015: I tensorflow/compiler/xla/service/service.cc:176]   StreamExecutor device (0): NVIDIA A100-SXM4-40GB, Compute Capability 8.0
+[1,0]<stderr>:2024-08-09 09:56:33.851179: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x57546b0 initialized for platform CUDA (this does not guarantee that XLA will be used). Devices:
+[1,0]<stderr>:2024-08-09 09:56:33.851211: I tensorflow/compiler/xla/service/service.cc:176]   StreamExecutor device (0): NVIDIA A100-SXM4-40GB, Compute Capability 8.0
+[1,1]<stderr>:2024-08-09 09:56:33.852643: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1742] Found device 0 with properties: 
+[1,1]<stderr>:pciBusID: 0000:13:00.0 name: NVIDIA A100-SXM4-40GB computeCapability: 8.0
+[1,1]<stderr>:coreClock: 1.41GHz coreCount: 108 deviceMemorySize: 39.39GiB deviceMemoryBandwidth: 1.41TiB/s
+[1,1]<stderr>:2024-08-09 09:56:33.852685: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcudart.so.11.0
+[1,1]<stderr>:2024-08-09 09:56:33.852766: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcublas.so.11
+[1,1]<stderr>:2024-08-09 09:56:33.852783: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcufft.so.10
+[1,1]<stderr>:2024-08-09 09:56:33.852800: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcurand.so.10
+[1,1]<stderr>:2024-08-09 09:56:33.852816: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcusolver.so.11
+[1,1]<stderr>:2024-08-09 09:56:33.852834: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcusparse.so.11
+[1,1]<stderr>:2024-08-09 09:56:33.852872: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcudnn.so.8
+[1,3]<stderr>:2024-08-09 09:56:33.853534: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1884] Adding visible gpu devices: 3
+[1,3]<stderr>:2024-08-09 09:56:33.853588: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcudart.so.11.0
+[1,5]<stderr>:2024-08-09 09:56:33.853847: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1742] Found device 0 with properties: 
+[1,5]<stderr>:pciBusID: 0000:99:00.0 name: NVIDIA A100-SXM4-40GB computeCapability: 8.0
+[1,5]<stderr>:coreClock: 1.41GHz coreCount: 108 deviceMemorySize: 39.39GiB deviceMemoryBandwidth: 1.41TiB/s
+[1,5]<stderr>:2024-08-09 09:56:33.853903: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcudart.so.11.0
+[1,5]<stderr>:2024-08-09 09:56:33.853952: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcublas.so.11
+[1,5]<stderr>:2024-08-09 09:56:33.853975: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcufft.so.10
+[1,5]<stderr>:2024-08-09 09:56:33.853998: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcurand.so.10
+[1,5]<stderr>:2024-08-09 09:56:33.854019: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcusolver.so.11
+[1,5]<stderr>:2024-08-09 09:56:33.854041: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcusparse.so.11
+[1,5]<stderr>:2024-08-09 09:56:33.854063: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcudnn.so.8
+[1,0]<stderr>:2024-08-09 09:56:33.854766: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1742] Found device 0 with properties: 
+[1,0]<stderr>:pciBusID: 0000:0e:00.0 name: NVIDIA A100-SXM4-40GB computeCapability: 8.0
+[1,0]<stderr>:coreClock: 1.41GHz coreCount: 108 deviceMemorySize: 39.39GiB deviceMemoryBandwidth: 1.41TiB/s
+[1,0]<stderr>:2024-08-09 09:56:33.854819: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcudart.so.11.0
+[1,0]<stderr>:2024-08-09 09:56:33.854863: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcublas.so.11
+[1,0]<stderr>:2024-08-09 09:56:33.854884: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcufft.so.10
+[1,0]<stderr>:2024-08-09 09:56:33.854904: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcurand.so.10
+[1,0]<stderr>:2024-08-09 09:56:33.854924: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcusolver.so.11
+[1,0]<stderr>:2024-08-09 09:56:33.854944: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcusparse.so.11
+[1,0]<stderr>:2024-08-09 09:56:33.854964: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcudnn.so.8
+[1,1]<stderr>:2024-08-09 09:56:33.855944: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1884] Adding visible gpu devices: 1
+[1,1]<stderr>:2024-08-09 09:56:33.855986: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcudart.so.11.0
+[1,5]<stderr>:2024-08-09 09:56:33.857270: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1884] Adding visible gpu devices: 5
+[1,5]<stderr>:2024-08-09 09:56:33.857324: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcudart.so.11.0
+[1,0]<stderr>:2024-08-09 09:56:33.869066: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1884] Adding visible gpu devices: 0
+[1,0]<stderr>:2024-08-09 09:56:33.869117: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcudart.so.11.0
+[1,2]<stderr>:2024-08-09 09:56:33.888543: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x4e836c0 initialized for platform CUDA (this does not guarantee that XLA will be used). Devices:
+[1,2]<stderr>:2024-08-09 09:56:33.888590: I tensorflow/compiler/xla/service/service.cc:176]   StreamExecutor device (0): NVIDIA A100-SXM4-40GB, Compute Capability 8.0
+[1,2]<stderr>:2024-08-09 09:56:33.892258: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1742] Found device 0 with properties: 
+[1,2]<stderr>:pciBusID: 0000:4a:00.0 name: NVIDIA A100-SXM4-40GB computeCapability: 8.0
+[1,2]<stderr>:coreClock: 1.41GHz coreCount: 108 deviceMemorySize: 39.39GiB deviceMemoryBandwidth: 1.41TiB/s
+[1,2]<stderr>:2024-08-09 09:56:33.892309: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcudart.so.11.0
+[1,2]<stderr>:2024-08-09 09:56:33.892367: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcublas.so.11
+[1,2]<stderr>:2024-08-09 09:56:33.892408: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcufft.so.10
+[1,2]<stderr>:2024-08-09 09:56:33.892430: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcurand.so.10
+[1,2]<stderr>:2024-08-09 09:56:33.892451: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcusolver.so.11
+[1,2]<stderr>:2024-08-09 09:56:33.892471: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcusparse.so.11
+[1,4]<stderr>:2024-08-09 09:56:33.892442: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x58900c0 initialized for platform CUDA (this does not guarantee that XLA will be used). Devices:
+[1,2]<stderr>:2024-08-09 09:56:33.892492: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcudnn.so.8
+[1,4]<stderr>:2024-08-09 09:56:33.892498: I tensorflow/compiler/xla/service/service.cc:176]   StreamExecutor device (0): NVIDIA A100-SXM4-40GB, Compute Capability 8.0
+[1,4]<stderr>:2024-08-09 09:56:33.894963: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1742] Found device 0 with properties: 
+[1,4]<stderr>:pciBusID: 0000:93:00.0 name: NVIDIA A100-SXM4-40GB computeCapability: 8.0
+[1,4]<stderr>:coreClock: 1.41GHz coreCount: 108 deviceMemorySize: 39.39GiB deviceMemoryBandwidth: 1.41TiB/s
+[1,4]<stderr>:2024-08-09 09:56:33.895054: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcudart.so.11.0
+[1,4]<stderr>:2024-08-09 09:56:33.895159: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcublas.so.11
+[1,4]<stderr>:2024-08-09 09:56:33.895188: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcufft.so.10
+[1,4]<stderr>:2024-08-09 09:56:33.895209: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcurand.so.10
+[1,4]<stderr>:2024-08-09 09:56:33.895231: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcusolver.so.11
+[1,4]<stderr>:2024-08-09 09:56:33.895252: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcusparse.so.11
+[1,4]<stderr>:2024-08-09 09:56:33.895275: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcudnn.so.8
+[1,2]<stderr>:2024-08-09 09:56:33.895607: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1884] Adding visible gpu devices: 2
+[1,2]<stderr>:2024-08-09 09:56:33.895657: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcudart.so.11.0
+[1,4]<stderr>:2024-08-09 09:56:33.898784: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1884] Adding visible gpu devices: 4
+[1,4]<stderr>:2024-08-09 09:56:33.898864: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcudart.so.11.0
+[1,5]<stderr>:2024-08-09 09:56:34.200616: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1283] Device interconnect StreamExecutor with strength 1 edge matrix:
+[1,5]<stderr>:2024-08-09 09:56:34.200682: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1289]      5 
+[1,5]<stderr>:2024-08-09 09:56:34.200691: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1302] 5:   N 
+[1,5]<stderr>:2024-08-09 09:56:34.204059: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1428] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 38266 MB memory) -> physical GPU (device: 5, name: NVIDIA A100-SXM4-40GB, pci bus id: 0000:99:00.0, compute capability: 8.0)
+[1,3]<stderr>:2024-08-09 09:56:34.206484: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1283] Device interconnect StreamExecutor with strength 1 edge matrix:
+[1,3]<stderr>:2024-08-09 09:56:34.206568: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1289]      3 
+[1,3]<stderr>:2024-08-09 09:56:34.206575: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1302] 3:   N 
+[1,3]<stderr>:2024-08-09 09:56:34.210117: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1428] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 38266 MB memory) -> physical GPU (device: 3, name: NVIDIA A100-SXM4-40GB, pci bus id: 0000:50:00.0, compute capability: 8.0)
+[1,1]<stderr>:2024-08-09 09:56:34.218584: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1283] Device interconnect StreamExecutor with strength 1 edge matrix:
+[1,1]<stderr>:2024-08-09 09:56:34.218644: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1289]      1 
+[1,1]<stderr>:2024-08-09 09:56:34.218651: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1302] 1:   N 
+[1,1]<stderr>:2024-08-09 09:56:34.225236: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1428] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 38266 MB memory) -> physical GPU (device: 1, name: NVIDIA A100-SXM4-40GB, pci bus id: 0000:13:00.0, compute capability: 8.0)
+[1,5]<stdout>:============ load project: cht ================
+[1,0]<stderr>:2024-08-09 09:56:34.243967: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1283] Device interconnect StreamExecutor with strength 1 edge matrix:
+[1,0]<stderr>:2024-08-09 09:56:34.244024: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1289]      0 
+[1,0]<stderr>:2024-08-09 09:56:34.244031: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1302] 0:   N 
+[1,2]<stderr>:2024-08-09 09:56:34.244295: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1283] Device interconnect StreamExecutor with strength 1 edge matrix:
+[1,2]<stderr>:2024-08-09 09:56:34.244371: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1289]      2 
+[1,2]<stderr>:2024-08-09 09:56:34.244381: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1302] 2:   N 
+[1,3]<stdout>:============ load project: cht ================
+[1,0]<stderr>:2024-08-09 09:56:34.247664: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1428] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 38266 MB memory) -> physical GPU (device: 0, name: NVIDIA A100-SXM4-40GB, pci bus id: 0000:0e:00.0, compute capability: 8.0)
+[1,2]<stderr>:2024-08-09 09:56:34.247928: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1428] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 38266 MB memory) -> physical GPU (device: 2, name: NVIDIA A100-SXM4-40GB, pci bus id: 0000:4a:00.0, compute capability: 8.0)
+[1,4]<stderr>:2024-08-09 09:56:34.252501: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1283] Device interconnect StreamExecutor with strength 1 edge matrix:
+[1,4]<stderr>:2024-08-09 09:56:34.252588: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1289]      4 
+[1,4]<stderr>:2024-08-09 09:56:34.252601: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1302] 4:   N 
+[1,4]<stderr>:2024-08-09 09:56:34.257856: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1428] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 38266 MB memory) -> physical GPU (device: 4, name: NVIDIA A100-SXM4-40GB, pci bus id: 0000:93:00.0, compute capability: 8.0)
+[1,1]<stdout>:============ load project: cht ================
+[1,0]<stdout>:============ load project: cht ================
+[1,2]<stdout>:============ load project: cht ================
+[1,4]<stdout>:============ load project: cht ================
+[1,3]<stdout>:total chars:9423
+[1,3]<stdout>:----------------------------------------
+[1,3]<stdout>:new chars:9423
+[1,3]<stdout>:----------------------------------------
+[1,1]<stdout>:total chars:9423
+[1,1]<stdout>:----------------------------------------
+[1,1]<stdout>:new chars:9423
+[1,1]<stdout>:----------------------------------------
+[1,0]<stdout>:total chars:9423
+[1,0]<stdout>:----------------------------------------
+[1,0]<stdout>:new chars:9423
+[1,0]<stdout>:----------------------------------------
+[1,5]<stdout>:total chars:9423
+[1,5]<stdout>:----------------------------------------
+[1,5]<stdout>:new chars:9423
+[1,5]<stdout>:----------------------------------------
+[1,4]<stdout>:total chars:9423
+[1,4]<stdout>:----------------------------------------
+[1,4]<stdout>:new chars:9423
+[1,4]<stdout>:----------------------------------------
+[1,2]<stdout>:total chars:9423
+[1,2]<stdout>:----------------------------------------
+[1,2]<stdout>:new chars:9423
+[1,2]<stdout>:----------------------------------------
+[1,3]<stdout>:/mnt/server_data2/data/seq_latex/tfrecords_0809/train*
+[1,3]<stdout>:<TensorSliceDataset shapes: (), types: tf.string>
+[1,3]<stdout>:================== total count: 433 ==============
+[1,1]<stdout>:/mnt/server_data2/data/seq_latex/tfrecords_0809/train*
+[1,1]<stdout>:<TensorSliceDataset shapes: (), types: tf.string>
+[1,1]<stdout>:================== total count: 433 ==============
+[1,0]<stdout>:/mnt/server_data2/data/seq_latex/tfrecords_0809/train*
+[1,5]<stdout>:/mnt/server_data2/data/seq_latex/tfrecords_0809/train*
+[1,5]<stdout>:<TensorSliceDataset shapes: (), types: tf.string>
+[1,5]<stdout>:================== total count: 433 ==============
+[1,0]<stdout>:<TensorSliceDataset shapes: (), types: tf.string>
+[1,0]<stdout>:================== total count: 433 ==============
+[1,2]<stdout>:/mnt/server_data2/data/seq_latex/tfrecords_0809/train*
+[1,2]<stdout>:<TensorSliceDataset shapes: (), types: tf.string>
+[1,2]<stdout>:================== total count: 433 ==============
+[1,4]<stdout>:/mnt/server_data2/data/seq_latex/tfrecords_0809/train*
+[1,4]<stdout>:<TensorSliceDataset shapes: (), types: tf.string>
+[1,4]<stdout>:================== total count: 433 ==============
+[1,3]<stderr>:WARNING:tensorflow:From /mnt/server_data2/code/projects/ocr_train/att_model_2.2/projects/cht/dataset.py:66: py_func (from tensorflow.python.ops.script_ops) is deprecated and will be removed in a future version.
+[1,3]<stderr>:Instructions for updating:
+[1,3]<stderr>:tf.py_func is deprecated in TF V2. Instead, there are two
+[1,3]<stderr>:    options available in V2.
+[1,3]<stderr>:    - tf.py_function takes a python function which manipulates tf eager
+[1,3]<stderr>:    tensors instead of numpy arrays. It's easy to convert a tf eager tensor to
+[1,3]<stderr>:    an ndarray (just call tensor.numpy()) but having access to eager tensors
+[1,3]<stderr>:    means `tf.py_function`s can use accelerators such as GPUs as well as
+[1,3]<stderr>:    being differentiable using a gradient tape.
+[1,3]<stderr>:    - tf.numpy_function maintains the semantics of the deprecated tf.py_func
+[1,3]<stderr>:    (it is not differentiable, and manipulates numpy arrays). It drops the
+[1,3]<stderr>:    stateful argument making all functions stateful.
+[1,3]<stderr>:    
+[1,3]<stderr>:W0809 09:56:42.672715 140143102965568 deprecation.py:317] From /mnt/server_data2/code/projects/ocr_train/att_model_2.2/projects/cht/dataset.py:66: py_func (from tensorflow.python.ops.script_ops) is deprecated and will be removed in a future version.
+[1,3]<stderr>:Instructions for updating:
+[1,3]<stderr>:tf.py_func is deprecated in TF V2. Instead, there are two
+[1,3]<stderr>:    options available in V2.
+[1,3]<stderr>:    - tf.py_function takes a python function which manipulates tf eager
+[1,3]<stderr>:    tensors instead of numpy arrays. It's easy to convert a tf eager tensor to
+[1,3]<stderr>:    an ndarray (just call tensor.numpy()) but having access to eager tensors
+[1,3]<stderr>:    means `tf.py_function`s can use accelerators such as GPUs as well as
+[1,3]<stderr>:    being differentiable using a gradient tape.
+[1,3]<stderr>:    - tf.numpy_function maintains the semantics of the deprecated tf.py_func
+[1,3]<stderr>:    (it is not differentiable, and manipulates numpy arrays). It drops the
+[1,3]<stderr>:    stateful argument making all functions stateful.
+[1,3]<stderr>:    
+[1,1]<stderr>:WARNING:tensorflow:From /mnt/server_data2/code/projects/ocr_train/att_model_2.2/projects/cht/dataset.py:66: py_func (from tensorflow.python.ops.script_ops) is deprecated and will be removed in a future version.
+[1,1]<stderr>:Instructions for updating:
+[1,1]<stderr>:tf.py_func is deprecated in TF V2. Instead, there are two
+[1,1]<stderr>:    options available in V2.
+[1,1]<stderr>:    - tf.py_function takes a python function which manipulates tf eager
+[1,1]<stderr>:    tensors instead of numpy arrays. It's easy to convert a tf eager tensor to
+[1,1]<stderr>:    an ndarray (just call tensor.numpy()) but having access to eager tensors
+[1,1]<stderr>:    means `tf.py_function`s can use accelerators such as GPUs as well as
+[1,1]<stderr>:    being differentiable using a gradient tape.
+[1,1]<stderr>:    - tf.numpy_function maintains the semantics of the deprecated tf.py_func
+[1,1]<stderr>:    (it is not differentiable, and manipulates numpy arrays). It drops the
+[1,1]<stderr>:    stateful argument making all functions stateful.
+[1,1]<stderr>:    
+[1,1]<stderr>:W0809 09:56:42.678680 140316295640896 deprecation.py:317] From /mnt/server_data2/code/projects/ocr_train/att_model_2.2/projects/cht/dataset.py:66: py_func (from tensorflow.python.ops.script_ops) is deprecated and will be removed in a future version.
+[1,1]<stderr>:Instructions for updating:
+[1,1]<stderr>:tf.py_func is deprecated in TF V2. Instead, there are two
+[1,1]<stderr>:    options available in V2.
+[1,1]<stderr>:    - tf.py_function takes a python function which manipulates tf eager
+[1,1]<stderr>:    tensors instead of numpy arrays. It's easy to convert a tf eager tensor to
+[1,1]<stderr>:    an ndarray (just call tensor.numpy()) but having access to eager tensors
+[1,1]<stderr>:    means `tf.py_function`s can use accelerators such as GPUs as well as
+[1,1]<stderr>:    being differentiable using a gradient tape.
+[1,1]<stderr>:    - tf.numpy_function maintains the semantics of the deprecated tf.py_func
+[1,1]<stderr>:    (it is not differentiable, and manipulates numpy arrays). It drops the
+[1,1]<stderr>:    stateful argument making all functions stateful.
+[1,1]<stderr>:    
+[1,0]<stderr>:WARNING:tensorflow:From /mnt/server_data2/code/projects/ocr_train/att_model_2.2/projects/cht/dataset.py:66: py_func (from tensorflow.python.ops.script_ops) is deprecated and will be removed in a future version.
+[1,0]<stderr>:Instructions for updating:
+[1,0]<stderr>:tf.py_func is deprecated in TF V2. Instead, there are two
+[1,0]<stderr>:    options available in V2.
+[1,0]<stderr>:    - tf.py_function takes a python function which manipulates tf eager
+[1,0]<stderr>:    tensors instead of numpy arrays. It's easy to convert a tf eager tensor to
+[1,0]<stderr>:    an ndarray (just call tensor.numpy()) but having access to eager tensors
+[1,0]<stderr>:    means `tf.py_function`s can use accelerators such as GPUs as well as
+[1,0]<stderr>:    being differentiable using a gradient tape.
+[1,0]<stderr>:    - tf.numpy_function maintains the semantics of the deprecated tf.py_func
+[1,0]<stderr>:    (it is not differentiable, and manipulates numpy arrays). It drops the
+[1,0]<stderr>:    stateful argument making all functions stateful.
+[1,0]<stderr>:    
+[1,0]<stderr>:W0809 09:56:42.740164 139862770992960 deprecation.py:317] From /mnt/server_data2/code/projects/ocr_train/att_model_2.2/projects/cht/dataset.py:66: py_func (from tensorflow.python.ops.script_ops) is deprecated and will be removed in a future version.
+[1,0]<stderr>:Instructions for updating:
+[1,0]<stderr>:tf.py_func is deprecated in TF V2. Instead, there are two
+[1,0]<stderr>:    options available in V2.
+[1,0]<stderr>:    - tf.py_function takes a python function which manipulates tf eager
+[1,0]<stderr>:    tensors instead of numpy arrays. It's easy to convert a tf eager tensor to
+[1,0]<stderr>:    an ndarray (just call tensor.numpy()) but having access to eager tensors
+[1,0]<stderr>:    means `tf.py_function`s can use accelerators such as GPUs as well as
+[1,0]<stderr>:    being differentiable using a gradient tape.
+[1,0]<stderr>:    - tf.numpy_function maintains the semantics of the deprecated tf.py_func
+[1,0]<stderr>:    (it is not differentiable, and manipulates numpy arrays). It drops the
+[1,0]<stderr>:    stateful argument making all functions stateful.
+[1,0]<stderr>:    
+[1,5]<stderr>:WARNING:tensorflow:From /mnt/server_data2/code/projects/ocr_train/att_model_2.2/projects/cht/dataset.py:66: py_func (from tensorflow.python.ops.script_ops) is deprecated and will be removed in a future version.
+[1,5]<stderr>:Instructions for updating:
+[1,5]<stderr>:tf.py_func is deprecated in TF V2. Instead, there are two
+[1,5]<stderr>:    options available in V2.
+[1,5]<stderr>:    - tf.py_function takes a python function which manipulates tf eager
+[1,5]<stderr>:    tensors instead of numpy arrays. It's easy to convert a tf eager tensor to
+[1,5]<stderr>:    an ndarray (just call tensor.numpy()) but having access to eager tensors
+[1,5]<stderr>:    means `tf.py_function`s can use accelerators such as GPUs as well as
+[1,5]<stderr>:    being differentiable using a gradient tape.
+[1,5]<stderr>:    - tf.numpy_function maintains the semantics of the deprecated tf.py_func
+[1,5]<stderr>:    (it is not differentiable, and manipulates numpy arrays). It drops the
+[1,5]<stderr>:    stateful argument making all functions stateful.
+[1,5]<stderr>:    
+[1,5]<stderr>:W0809 09:56:42.741903 139710199830336 deprecation.py:317] From /mnt/server_data2/code/projects/ocr_train/att_model_2.2/projects/cht/dataset.py:66: py_func (from tensorflow.python.ops.script_ops) is deprecated and will be removed in a future version.
+[1,5]<stderr>:Instructions for updating:
+[1,5]<stderr>:tf.py_func is deprecated in TF V2. Instead, there are two
+[1,5]<stderr>:    options available in V2.
+[1,5]<stderr>:    - tf.py_function takes a python function which manipulates tf eager
+[1,5]<stderr>:    tensors instead of numpy arrays. It's easy to convert a tf eager tensor to
+[1,5]<stderr>:    an ndarray (just call tensor.numpy()) but having access to eager tensors
+[1,5]<stderr>:    means `tf.py_function`s can use accelerators such as GPUs as well as
+[1,5]<stderr>:    being differentiable using a gradient tape.
+[1,5]<stderr>:    - tf.numpy_function maintains the semantics of the deprecated tf.py_func
+[1,5]<stderr>:    (it is not differentiable, and manipulates numpy arrays). It drops the
+[1,5]<stderr>:    stateful argument making all functions stateful.
+[1,5]<stderr>:    
+[1,1]<stdout>:loading from existing checkpoint /mnt/server_data2/data/seq_latex/models_equ_latex_0808/ckpt-21001
+[1,3]<stdout>:loading from existing checkpoint /mnt/server_data2/data/seq_latex/models_equ_latex_0808/ckpt-21001
+[1,2]<stderr>:WARNING:tensorflow:From /mnt/server_data2/code/projects/ocr_train/att_model_2.2/projects/cht/dataset.py:66: py_func (from tensorflow.python.ops.script_ops) is deprecated and will be removed in a future version.
+[1,2]<stderr>:Instructions for updating:
+[1,2]<stderr>:tf.py_func is deprecated in TF V2. Instead, there are two
+[1,2]<stderr>:    options available in V2.
+[1,2]<stderr>:    - tf.py_function takes a python function which manipulates tf eager
+[1,2]<stderr>:    tensors instead of numpy arrays. It's easy to convert a tf eager tensor to
+[1,2]<stderr>:    an ndarray (just call tensor.numpy()) but having access to eager tensors
+[1,2]<stderr>:    means `tf.py_function`s can use accelerators such as GPUs as well as
+[1,2]<stderr>:    being differentiable using a gradient tape.
+[1,2]<stderr>:    - tf.numpy_function maintains the semantics of the deprecated tf.py_func
+[1,2]<stderr>:    (it is not differentiable, and manipulates numpy arrays). It drops the
+[1,2]<stderr>:    stateful argument making all functions stateful.
+[1,2]<stderr>:    
+[1,2]<stderr>:W0809 09:56:42.781766 140240340244288 deprecation.py:317] From /mnt/server_data2/code/projects/ocr_train/att_model_2.2/projects/cht/dataset.py:66: py_func (from tensorflow.python.ops.script_ops) is deprecated and will be removed in a future version.
+[1,2]<stderr>:Instructions for updating:
+[1,2]<stderr>:tf.py_func is deprecated in TF V2. Instead, there are two
+[1,2]<stderr>:    options available in V2.
+[1,2]<stderr>:    - tf.py_function takes a python function which manipulates tf eager
+[1,2]<stderr>:    tensors instead of numpy arrays. It's easy to convert a tf eager tensor to
+[1,2]<stderr>:    an ndarray (just call tensor.numpy()) but having access to eager tensors
+[1,2]<stderr>:    means `tf.py_function`s can use accelerators such as GPUs as well as
+[1,2]<stderr>:    being differentiable using a gradient tape.
+[1,2]<stderr>:    - tf.numpy_function maintains the semantics of the deprecated tf.py_func
+[1,2]<stderr>:    (it is not differentiable, and manipulates numpy arrays). It drops the
+[1,2]<stderr>:    stateful argument making all functions stateful.
+[1,2]<stderr>:    
+[1,4]<stderr>:WARNING:tensorflow:From /mnt/server_data2/code/projects/ocr_train/att_model_2.2/projects/cht/dataset.py:66: py_func (from tensorflow.python.ops.script_ops) is deprecated and will be removed in a future version.
+[1,4]<stderr>:Instructions for updating:
+[1,4]<stderr>:tf.py_func is deprecated in TF V2. Instead, there are two
+[1,4]<stderr>:    options available in V2.
+[1,4]<stderr>:    - tf.py_function takes a python function which manipulates tf eager
+[1,4]<stderr>:    tensors instead of numpy arrays. It's easy to convert a tf eager tensor to
+[1,4]<stderr>:    an ndarray (just call tensor.numpy()) but having access to eager tensors
+[1,4]<stderr>:    means `tf.py_function`s can use accelerators such as GPUs as well as
+[1,4]<stderr>:    being differentiable using a gradient tape.
+[1,4]<stderr>:    - tf.numpy_function maintains the semantics of the deprecated tf.py_func
+[1,4]<stderr>:    (it is not differentiable, and manipulates numpy arrays). It drops the
+[1,4]<stderr>:    stateful argument making all functions stateful.
+[1,4]<stderr>:    
+[1,4]<stderr>:W0809 09:56:42.813949 140158895785792 deprecation.py:317] From /mnt/server_data2/code/projects/ocr_train/att_model_2.2/projects/cht/dataset.py:66: py_func (from tensorflow.python.ops.script_ops) is deprecated and will be removed in a future version.
+[1,4]<stderr>:Instructions for updating:
+[1,4]<stderr>:tf.py_func is deprecated in TF V2. Instead, there are two
+[1,4]<stderr>:    options available in V2.
+[1,4]<stderr>:    - tf.py_function takes a python function which manipulates tf eager
+[1,4]<stderr>:    tensors instead of numpy arrays. It's easy to convert a tf eager tensor to
+[1,4]<stderr>:    an ndarray (just call tensor.numpy()) but having access to eager tensors
+[1,4]<stderr>:    means `tf.py_function`s can use accelerators such as GPUs as well as
+[1,4]<stderr>:    being differentiable using a gradient tape.
+[1,4]<stderr>:    - tf.numpy_function maintains the semantics of the deprecated tf.py_func
+[1,4]<stderr>:    (it is not differentiable, and manipulates numpy arrays). It drops the
+[1,4]<stderr>:    stateful argument making all functions stateful.
+[1,4]<stderr>:    
+[1,0]<stdout>:loading from existing checkpoint /mnt/server_data2/data/seq_latex/models_equ_latex_0808/ckpt-21001
+[1,5]<stdout>:loading from existing checkpoint /mnt/server_data2/data/seq_latex/models_equ_latex_0808/ckpt-21001
+[1,2]<stdout>:loading from existing checkpoint /mnt/server_data2/data/seq_latex/models_equ_latex_0808/ckpt-21001
+[1,4]<stdout>:loading from existing checkpoint /mnt/server_data2/data/seq_latex/models_equ_latex_0808/ckpt-21001
+[1,3]<stdout>:steps:  21001
+[1,3]<stdout>:loading from existing checkpoint done
+[1,4]<stdout>:steps:  21001
+[1,4]<stdout>:loading from existing checkpoint done
+[1,5]<stdout>:steps:  21001
+[1,5]<stdout>:loading from existing checkpoint done
+[1,1]<stdout>:steps:  21001
+[1,1]<stdout>:loading from existing checkpoint done
+[1,2]<stdout>:steps:  21001
+[1,2]<stdout>:loading from existing checkpoint done
+[1,0]<stdout>:steps:  21001
+[1,0]<stdout>:loading from existing checkpoint done
+[1,5]<stderr>:WARNING:tensorflow:The operation `tf.image.convert_image_dtype` will be skipped since the input and output dtypes are identical.
+[1,5]<stderr>:W0809 09:56:51.288602 139710199830336 image_ops_impl.py:2058] The operation `tf.image.convert_image_dtype` will be skipped since the input and output dtypes are identical.
+[1,5]<stderr>:WARNING:tensorflow:The operation `tf.image.convert_image_dtype` will be skipped since the input and output dtypes are identical.
+[1,5]<stderr>:W0809 09:56:51.292998 139710199830336 image_ops_impl.py:2058] The operation `tf.image.convert_image_dtype` will be skipped since the input and output dtypes are identical.
+[1,5]<stderr>:WARNING:tensorflow:The operation `tf.image.convert_image_dtype` will be skipped since the input and output dtypes are identical.
+[1,5]<stderr>:W0809 09:56:51.297350 139710199830336 image_ops_impl.py:2058] The operation `tf.image.convert_image_dtype` will be skipped since the input and output dtypes are identical.
+[1,5]<stderr>:WARNING:tensorflow:The operation `tf.image.convert_image_dtype` will be skipped since the input and output dtypes are identical.
+[1,5]<stderr>:W0809 09:56:51.303058 139710199830336 image_ops_impl.py:2058] The operation `tf.image.convert_image_dtype` will be skipped since the input and output dtypes are identical.
+[1,3]<stderr>:WARNING:tensorflow:The operation `tf.image.convert_image_dtype` will be skipped since the input and output dtypes are identical.
+[1,3]<stderr>:W0809 09:56:51.315495 140143102965568 image_ops_impl.py:2058] The operation `tf.image.convert_image_dtype` will be skipped since the input and output dtypes are identical.
+[1,3]<stderr>:WARNING:tensorflow:The operation `tf.image.convert_image_dtype` will be skipped since the input and output dtypes are identical.
+[1,3]<stderr>:W0809 09:56:51.322179 140143102965568 image_ops_impl.py:2058] The operation `tf.image.convert_image_dtype` will be skipped since the input and output dtypes are identical.
+[1,3]<stderr>:WARNING:tensorflow:The operation `tf.image.convert_image_dtype` will be skipped since the input and output dtypes are identical.
+[1,3]<stderr>:W0809 09:56:51.328968 140143102965568 image_ops_impl.py:2058] The operation `tf.image.convert_image_dtype` will be skipped since the input and output dtypes are identical.
+[1,3]<stderr>:WARNING:tensorflow:The operation `tf.image.convert_image_dtype` will be skipped since the input and output dtypes are identical.
+[1,3]<stderr>:W0809 09:56:51.376136 140143102965568 image_ops_impl.py:2058] The operation `tf.image.convert_image_dtype` will be skipped since the input and output dtypes are identical.
+[1,1]<stderr>:WARNING:tensorflow:The operation `tf.image.convert_image_dtype` will be skipped since the input and output dtypes are identical.
+[1,1]<stderr>:W0809 09:56:51.405195 140316295640896 image_ops_impl.py:2058] The operation `tf.image.convert_image_dtype` will be skipped since the input and output dtypes are identical.
+[1,1]<stderr>:WARNING:tensorflow:The operation `tf.image.convert_image_dtype` will be skipped since the input and output dtypes are identical.
+[1,1]<stderr>:W0809 09:56:51.411026 140316295640896 image_ops_impl.py:2058] The operation `tf.image.convert_image_dtype` will be skipped since the input and output dtypes are identical.
+[1,1]<stderr>:WARNING:tensorflow:The operation `tf.image.convert_image_dtype` will be skipped since the input and output dtypes are identical.
+[1,1]<stderr>:W0809 09:56:51.417926 140316295640896 image_ops_impl.py:2058] The operation `tf.image.convert_image_dtype` will be skipped since the input and output dtypes are identical.
+[1,1]<stderr>:WARNING:tensorflow:The operation `tf.image.convert_image_dtype` will be skipped since the input and output dtypes are identical.
+[1,1]<stderr>:W0809 09:56:51.423537 140316295640896 image_ops_impl.py:2058] The operation `tf.image.convert_image_dtype` will be skipped since the input and output dtypes are identical.
+[1,0]<stderr>:WARNING:tensorflow:The operation `tf.image.convert_image_dtype` will be skipped since the input and output dtypes are identical.
+[1,0]<stderr>:W0809 09:56:51.809770 139862770992960 image_ops_impl.py:2058] The operation `tf.image.convert_image_dtype` will be skipped since the input and output dtypes are identical.
+[1,0]<stderr>:WARNING:tensorflow:The operation `tf.image.convert_image_dtype` will be skipped since the input and output dtypes are identical.
+[1,0]<stderr>:W0809 09:56:51.814739 139862770992960 image_ops_impl.py:2058] The operation `tf.image.convert_image_dtype` will be skipped since the input and output dtypes are identical.
+[1,0]<stderr>:WARNING:tensorflow:The operation `tf.image.convert_image_dtype` will be skipped since the input and output dtypes are identical.
+[1,0]<stderr>:W0809 09:56:51.820904 139862770992960 image_ops_impl.py:2058] The operation `tf.image.convert_image_dtype` will be skipped since the input and output dtypes are identical.
+[1,0]<stderr>:WARNING:tensorflow:The operation `tf.image.convert_image_dtype` will be skipped since the input and output dtypes are identical.
+[1,0]<stderr>:W0809 09:56:51.829306 139862770992960 image_ops_impl.py:2058] The operation `tf.image.convert_image_dtype` will be skipped since the input and output dtypes are identical.
+[1,2]<stderr>:WARNING:tensorflow:The operation `tf.image.convert_image_dtype` will be skipped since the input and output dtypes are identical.
+[1,2]<stderr>:W0809 09:56:51.944425 140240340244288 image_ops_impl.py:2058] The operation `tf.image.convert_image_dtype` will be skipped since the input and output dtypes are identical.
+[1,2]<stderr>:WARNING:tensorflow:The operation `tf.image.convert_image_dtype` will be skipped since the input and output dtypes are identical.
+[1,2]<stderr>:W0809 09:56:51.948574 140240340244288 image_ops_impl.py:2058] The operation `tf.image.convert_image_dtype` will be skipped since the input and output dtypes are identical.
+[1,2]<stderr>:WARNING:tensorflow:The operation `tf.image.convert_image_dtype` will be skipped since the input and output dtypes are identical.
+[1,2]<stderr>:W0809 09:56:51.953411 140240340244288 image_ops_impl.py:2058] The operation `tf.image.convert_image_dtype` will be skipped since the input and output dtypes are identical.
+[1,2]<stderr>:WARNING:tensorflow:The operation `tf.image.convert_image_dtype` will be skipped since the input and output dtypes are identical.
+[1,2]<stderr>:W0809 09:56:51.959588 140240340244288 image_ops_impl.py:2058] The operation `tf.image.convert_image_dtype` will be skipped since the input and output dtypes are identical.
+[1,4]<stderr>:WARNING:tensorflow:The operation `tf.image.convert_image_dtype` will be skipped since the input and output dtypes are identical.
+[1,4]<stderr>:W0809 09:56:52.563262 140158895785792 image_ops_impl.py:2058] The operation `tf.image.convert_image_dtype` will be skipped since the input and output dtypes are identical.
+[1,4]<stderr>:WARNING:tensorflow:The operation `tf.image.convert_image_dtype` will be skipped since the input and output dtypes are identical.
+[1,4]<stderr>:W0809 09:56:52.568820 140158895785792 image_ops_impl.py:2058] The operation `tf.image.convert_image_dtype` will be skipped since the input and output dtypes are identical.
+[1,4]<stderr>:WARNING:tensorflow:The operation `tf.image.convert_image_dtype` will be skipped since the input and output dtypes are identical.
+[1,4]<stderr>:W0809 09:56:52.574264 140158895785792 image_ops_impl.py:2058] The operation `tf.image.convert_image_dtype` will be skipped since the input and output dtypes are identical.
+[1,4]<stderr>:WARNING:tensorflow:The operation `tf.image.convert_image_dtype` will be skipped since the input and output dtypes are identical.
+[1,4]<stderr>:W0809 09:56:52.607884 140158895785792 image_ops_impl.py:2058] The operation `tf.image.convert_image_dtype` will be skipped since the input and output dtypes are identical.
+[1,3]<stderr>:WARNING:tensorflow:The operation `tf.image.convert_image_dtype` will be skipped since the input and output dtypes are identical.
+[1,3]<stderr>:W0809 09:57:04.973513 140143102965568 image_ops_impl.py:2058] The operation `tf.image.convert_image_dtype` will be skipped since the input and output dtypes are identical.
+[1,3]<stderr>:WARNING:tensorflow:The operation `tf.image.convert_image_dtype` will be skipped since the input and output dtypes are identical.
+[1,3]<stderr>:W0809 09:57:04.979085 140143102965568 image_ops_impl.py:2058] The operation `tf.image.convert_image_dtype` will be skipped since the input and output dtypes are identical.
+[1,3]<stderr>:WARNING:tensorflow:The operation `tf.image.convert_image_dtype` will be skipped since the input and output dtypes are identical.
+[1,3]<stderr>:W0809 09:57:04.984722 140143102965568 image_ops_impl.py:2058] The operation `tf.image.convert_image_dtype` will be skipped since the input and output dtypes are identical.
+[1,3]<stderr>:WARNING:tensorflow:The operation `tf.image.convert_image_dtype` will be skipped since the input and output dtypes are identical.
+[1,3]<stderr>:W0809 09:57:04.990363 140143102965568 image_ops_impl.py:2058] The operation `tf.image.convert_image_dtype` will be skipped since the input and output dtypes are identical.
+[1,5]<stderr>:WARNING:tensorflow:The operation `tf.image.convert_image_dtype` will be skipped since the input and output dtypes are identical.
+[1,5]<stderr>:W0809 09:57:05.146631 139710199830336 image_ops_impl.py:2058] The operation `tf.image.convert_image_dtype` will be skipped since the input and output dtypes are identical.
+[1,5]<stderr>:WARNING:tensorflow:The operation `tf.image.convert_image_dtype` will be skipped since the input and output dtypes are identical.
+[1,5]<stderr>:W0809 09:57:05.153061 139710199830336 image_ops_impl.py:2058] The operation `tf.image.convert_image_dtype` will be skipped since the input and output dtypes are identical.
+[1,5]<stderr>:WARNING:tensorflow:The operation `tf.image.convert_image_dtype` will be skipped since the input and output dtypes are identical.
+[1,5]<stderr>:W0809 09:57:05.160480 139710199830336 image_ops_impl.py:2058] The operation `tf.image.convert_image_dtype` will be skipped since the input and output dtypes are identical.
+[1,5]<stderr>:WARNING:tensorflow:The operation `tf.image.convert_image_dtype` will be skipped since the input and output dtypes are identical.
+[1,5]<stderr>:W0809 09:57:05.166198 139710199830336 image_ops_impl.py:2058] The operation `tf.image.convert_image_dtype` will be skipped since the input and output dtypes are identical.
+[1,0]<stderr>:WARNING:tensorflow:The operation `tf.image.convert_image_dtype` will be skipped since the input and output dtypes are identical.
+[1,0]<stderr>:W0809 09:57:05.171465 139862770992960 image_ops_impl.py:2058] The operation `tf.image.convert_image_dtype` will be skipped since the input and output dtypes are identical.
+[1,0]<stderr>:WARNING:tensorflow:The operation `tf.image.convert_image_dtype` will be skipped since the input and output dtypes are identical.
+[1,0]<stderr>:W0809 09:57:05.176332 139862770992960 image_ops_impl.py:2058] The operation `tf.image.convert_image_dtype` will be skipped since the input and output dtypes are identical.
+[1,0]<stderr>:WARNING:tensorflow:The operation `tf.image.convert_image_dtype` will be skipped since the input and output dtypes are identical.
+[1,0]<stderr>:W0809 09:57:05.179630 139862770992960 image_ops_impl.py:2058] The operation `tf.image.convert_image_dtype` will be skipped since the input and output dtypes are identical.
+[1,0]<stderr>:WARNING:tensorflow:The operation `tf.image.convert_image_dtype` will be skipped since the input and output dtypes are identical.
+[1,0]<stderr>:W0809 09:57:05.182961 139862770992960 image_ops_impl.py:2058] The operation `tf.image.convert_image_dtype` will be skipped since the input and output dtypes are identical.
+[1,1]<stderr>:WARNING:tensorflow:The operation `tf.image.convert_image_dtype` will be skipped since the input and output dtypes are identical.
+[1,1]<stderr>:W0809 09:57:05.457231 140316295640896 image_ops_impl.py:2058] The operation `tf.image.convert_image_dtype` will be skipped since the input and output dtypes are identical.
+[1,1]<stderr>:WARNING:tensorflow:The operation `tf.image.convert_image_dtype` will be skipped since the input and output dtypes are identical.
+[1,1]<stderr>:W0809 09:57:05.460514 140316295640896 image_ops_impl.py:2058] The operation `tf.image.convert_image_dtype` will be skipped since the input and output dtypes are identical.
+[1,1]<stderr>:WARNING:tensorflow:The operation `tf.image.convert_image_dtype` will be skipped since the input and output dtypes are identical.
+[1,1]<stderr>:W0809 09:57:05.464028 140316295640896 image_ops_impl.py:2058] The operation `tf.image.convert_image_dtype` will be skipped since the input and output dtypes are identical.
+[1,1]<stderr>:WARNING:tensorflow:The operation `tf.image.convert_image_dtype` will be skipped since the input and output dtypes are identical.
+[1,1]<stderr>:W0809 09:57:05.466887 140316295640896 image_ops_impl.py:2058] The operation `tf.image.convert_image_dtype` will be skipped since the input and output dtypes are identical.
+[1,2]<stderr>:WARNING:tensorflow:The operation `tf.image.convert_image_dtype` will be skipped since the input and output dtypes are identical.
+[1,2]<stderr>:W0809 09:57:05.703777 140240340244288 image_ops_impl.py:2058] The operation `tf.image.convert_image_dtype` will be skipped since the input and output dtypes are identical.
+[1,2]<stderr>:WARNING:tensorflow:The operation `tf.image.convert_image_dtype` will be skipped since the input and output dtypes are identical.
+[1,2]<stderr>:W0809 09:57:05.723035 140240340244288 image_ops_impl.py:2058] The operation `tf.image.convert_image_dtype` will be skipped since the input and output dtypes are identical.
+[1,2]<stderr>:WARNING:tensorflow:The operation `tf.image.convert_image_dtype` will be skipped since the input and output dtypes are identical.
+[1,2]<stderr>:W0809 09:57:05.738020 140240340244288 image_ops_impl.py:2058] The operation `tf.image.convert_image_dtype` will be skipped since the input and output dtypes are identical.
+[1,2]<stderr>:WARNING:tensorflow:The operation `tf.image.convert_image_dtype` will be skipped since the input and output dtypes are identical.
+[1,2]<stderr>:W0809 09:57:05.743070 140240340244288 image_ops_impl.py:2058] The operation `tf.image.convert_image_dtype` will be skipped since the input and output dtypes are identical.
+[1,4]<stderr>:WARNING:tensorflow:The operation `tf.image.convert_image_dtype` will be skipped since the input and output dtypes are identical.
+[1,4]<stderr>:W0809 09:57:06.975378 140158895785792 image_ops_impl.py:2058] The operation `tf.image.convert_image_dtype` will be skipped since the input and output dtypes are identical.
+[1,4]<stderr>:WARNING:tensorflow:The operation `tf.image.convert_image_dtype` will be skipped since the input and output dtypes are identical.
+[1,4]<stderr>:W0809 09:57:06.978208 140158895785792 image_ops_impl.py:2058] The operation `tf.image.convert_image_dtype` will be skipped since the input and output dtypes are identical.
+[1,4]<stderr>:WARNING:tensorflow:The operation `tf.image.convert_image_dtype` will be skipped since the input and output dtypes are identical.
+[1,4]<stderr>:W0809 09:57:06.980908 140158895785792 image_ops_impl.py:2058] The operation `tf.image.convert_image_dtype` will be skipped since the input and output dtypes are identical.
+[1,4]<stderr>:WARNING:tensorflow:The operation `tf.image.convert_image_dtype` will be skipped since the input and output dtypes are identical.
+[1,4]<stderr>:W0809 09:57:06.983692 140158895785792 image_ops_impl.py:2058] The operation `tf.image.convert_image_dtype` will be skipped since the input and output dtypes are identical.
+[1,3]<stderr>:2024-08-09 09:57:13.538049: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcublas.so.11
+[1,3]<stderr>:2024-08-09 09:57:14.067503: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcudnn.so.8
+[1,0]<stderr>:2024-08-09 09:57:14.119637: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcublas.so.11
+[1,0]<stderr>:2024-08-09 09:57:14.678521: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcudnn.so.8
+[1,1]<stderr>:2024-08-09 09:57:14.748954: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcublas.so.11
+[1,5]<stderr>:2024-08-09 09:57:14.776965: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcublas.so.11
+[1,2]<stderr>:2024-08-09 09:57:14.823675: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcublas.so.11
+[1,1]<stderr>:2024-08-09 09:57:15.266485: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcudnn.so.8
+[1,5]<stderr>:2024-08-09 09:57:15.314186: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcudnn.so.8
+[1,2]<stderr>:2024-08-09 09:57:15.356933: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcudnn.so.8
+[1,4]<stderr>:2024-08-09 09:57:16.109124: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcublas.so.11
+[1,4]<stderr>:2024-08-09 09:57:16.668404: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcudnn.so.8
+[1,0]<stdout>:model_loss: 0.119106084 l2_loss: 0.019800166 total_loss: 0.13890626  time: 397.01641297340393 step: 21101 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.10937328 l2_loss: 0.019798147 total_loss: 0.12917143  time: 360.9601972103119 step: 21201 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.104676835 l2_loss: 0.019794524 total_loss: 0.12447136  time: 362.2039957046509 step: 21301 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.13771108 l2_loss: 0.019796329 total_loss: 0.1575074  time: 369.41252398490906 step: 21401 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.12351507 l2_loss: 0.019787928 total_loss: 0.14330299  time: 366.06046986579895 step: 21501 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.120318145 l2_loss: 0.019773308 total_loss: 0.14009145  time: 362.3595197200775 step: 21601 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.1269608 l2_loss: 0.019758536 total_loss: 0.14671934  time: 369.26410603523254 step: 21701 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.13878082 l2_loss: 0.019741552 total_loss: 0.15852237  time: 358.7372958660126 step: 21801 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.07750517 l2_loss: 0.019723184 total_loss: 0.097228356  time: 361.11612582206726 step: 21901 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.1775537 l2_loss: 0.019747412 total_loss: 0.1973011  time: 361.0194253921509 step: 22001 lr: 2.4e-05
+[1,0]<stdout>:check point saved===================================
+[1,0]<stdout>:model_loss: 0.14850546 l2_loss: 0.019728985 total_loss: 0.16823445  time: 363.57422709465027 step: 22101 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.08433429 l2_loss: 0.019712595 total_loss: 0.10404689  time: 359.35224199295044 step: 22201 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.090660214 l2_loss: 0.019698363 total_loss: 0.11035858  time: 361.16450476646423 step: 22301 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.06576948 l2_loss: 0.01968632 total_loss: 0.0854558  time: 365.7761254310608 step: 22401 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.11975504 l2_loss: 0.019676892 total_loss: 0.13943192  time: 362.97304677963257 step: 22501 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.07903492 l2_loss: 0.019670708 total_loss: 0.09870563  time: 365.23181653022766 step: 22601 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.17344683 l2_loss: 0.019662686 total_loss: 0.19310951  time: 366.6124711036682 step: 22701 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.06737048 l2_loss: 0.01965513 total_loss: 0.08702561  time: 367.5773410797119 step: 22801 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.08686723 l2_loss: 0.019648122 total_loss: 0.10651535  time: 366.0149555206299 step: 22901 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.0707264 l2_loss: 0.01963884 total_loss: 0.090365246  time: 365.67744755744934 step: 23001 lr: 2.4e-05
+[1,0]<stdout>:check point saved===================================
+[1,0]<stdout>:model_loss: 0.10725387 l2_loss: 0.019631485 total_loss: 0.12688535  time: 364.7201347351074 step: 23101 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.1474838 l2_loss: 0.019622358 total_loss: 0.16710615  time: 368.3252353668213 step: 23201 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.11808488 l2_loss: 0.01961712 total_loss: 0.137702  time: 363.5510802268982 step: 23301 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.10984023 l2_loss: 0.0196093 total_loss: 0.12944953  time: 365.0828549861908 step: 23401 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.06714124 l2_loss: 0.019603755 total_loss: 0.086744994  time: 360.32196736335754 step: 23501 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.11176211 l2_loss: 0.019595101 total_loss: 0.13135721  time: 363.85895133018494 step: 23601 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.060743824 l2_loss: 0.01958724 total_loss: 0.080331065  time: 362.17142963409424 step: 23701 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.053124692 l2_loss: 0.019583391 total_loss: 0.072708085  time: 360.6101553440094 step: 23801 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.11727215 l2_loss: 0.019572714 total_loss: 0.13684487  time: 361.2454969882965 step: 23901 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.09708122 l2_loss: 0.019561883 total_loss: 0.1166431  time: 357.33278346061707 step: 24001 lr: 2.4e-05
+[1,0]<stdout>:check point saved===================================
+[1,0]<stdout>:model_loss: 0.077622876 l2_loss: 0.01955081 total_loss: 0.09717368  time: 364.0024769306183 step: 24101 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.13059005 l2_loss: 0.019539775 total_loss: 0.15012982  time: 360.79388546943665 step: 24201 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.122345544 l2_loss: 0.019528998 total_loss: 0.14187454  time: 358.8863091468811 step: 24301 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.1303244 l2_loss: 0.019526087 total_loss: 0.14985049  time: 358.7456593513489 step: 24401 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.11317048 l2_loss: 0.019521121 total_loss: 0.1326916  time: 360.3519606590271 step: 24501 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.14956431 l2_loss: 0.01952547 total_loss: 0.16908978  time: 360.7949047088623 step: 24601 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.13039018 l2_loss: 0.01952194 total_loss: 0.14991212  time: 362.26566457748413 step: 24701 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.10367874 l2_loss: 0.019517105 total_loss: 0.12319584  time: 361.96175479888916 step: 24801 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.15629284 l2_loss: 0.019513736 total_loss: 0.17580658  time: 359.2991797924042 step: 24901 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.16272475 l2_loss: 0.019515296 total_loss: 0.18224004  time: 362.90670251846313 step: 25001 lr: 2.4e-05
+[1,0]<stdout>:check point saved===================================
+[1,0]<stdout>:model_loss: 0.11828748 l2_loss: 0.01951978 total_loss: 0.13780726  time: 362.2007346153259 step: 25101 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.06706973 l2_loss: 0.019515658 total_loss: 0.08658539  time: 361.03665804862976 step: 25201 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.08768089 l2_loss: 0.019510465 total_loss: 0.107191354  time: 360.41373229026794 step: 25301 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.11456206 l2_loss: 0.019516435 total_loss: 0.13407849  time: 360.560672044754 step: 25401 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.11519209 l2_loss: 0.019516483 total_loss: 0.13470858  time: 361.0648715496063 step: 25501 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.079240255 l2_loss: 0.019514734 total_loss: 0.09875499  time: 359.4176652431488 step: 25601 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.08455268 l2_loss: 0.019510072 total_loss: 0.10406275  time: 362.5820777416229 step: 25701 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.08274957 l2_loss: 0.019503072 total_loss: 0.10225264  time: 359.68138360977173 step: 25801 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.08445925 l2_loss: 0.019493807 total_loss: 0.10395306  time: 358.6110806465149 step: 25901 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.054601587 l2_loss: 0.019487644 total_loss: 0.07408923  time: 358.97392868995667 step: 26001 lr: 2.4e-05
+[1,0]<stdout>:check point saved===================================
+[1,0]<stdout>:model_loss: 0.098088086 l2_loss: 0.019484702 total_loss: 0.117572784  time: 359.9657187461853 step: 26101 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.07802242 l2_loss: 0.019479034 total_loss: 0.09750146  time: 359.67512249946594 step: 26201 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.103958875 l2_loss: 0.01947066 total_loss: 0.12342954  time: 353.0244975090027 step: 26301 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.11089331 l2_loss: 0.019459957 total_loss: 0.13035327  time: 358.97049856185913 step: 26401 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.054824416 l2_loss: 0.019455211 total_loss: 0.07427963  time: 360.4385406970978 step: 26501 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.08380443 l2_loss: 0.019451033 total_loss: 0.103255466  time: 365.0174367427826 step: 26601 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.20092425 l2_loss: 0.019464942 total_loss: 0.22038919  time: 361.48366951942444 step: 26701 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.15922953 l2_loss: 0.019472701 total_loss: 0.17870224  time: 356.8166751861572 step: 26801 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.14811534 l2_loss: 0.0194689 total_loss: 0.16758424  time: 357.293274641037 step: 26901 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.08913568 l2_loss: 0.019464282 total_loss: 0.10859996  time: 363.1465561389923 step: 27001 lr: 2.4e-05
+[1,0]<stdout>:check point saved===================================
+[1,0]<stdout>:model_loss: 0.11211667 l2_loss: 0.019456878 total_loss: 0.13157356  time: 358.57974433898926 step: 27101 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.081749536 l2_loss: 0.019469788 total_loss: 0.101219326  time: 358.7671718597412 step: 27201 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.14056776 l2_loss: 0.01946313 total_loss: 0.1600309  time: 363.5567669868469 step: 27301 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.06907471 l2_loss: 0.019457608 total_loss: 0.08853232  time: 359.1692485809326 step: 27401 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.11618208 l2_loss: 0.019450352 total_loss: 0.13563243  time: 358.06577730178833 step: 27501 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.08192443 l2_loss: 0.019445384 total_loss: 0.10136981  time: 363.1495304107666 step: 27601 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.031171354 l2_loss: 0.01944316 total_loss: 0.050614513  time: 364.3255820274353 step: 27701 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.1342635 l2_loss: 0.019435141 total_loss: 0.15369864  time: 361.69276452064514 step: 27801 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.11873191 l2_loss: 0.019427456 total_loss: 0.13815936  time: 359.23482060432434 step: 27901 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.06358707 l2_loss: 0.019419702 total_loss: 0.08300677  time: 358.96114802360535 step: 28001 lr: 2.4e-05
+[1,0]<stdout>:check point saved===================================
+[1,0]<stdout>:model_loss: 0.04997849 l2_loss: 0.01941435 total_loss: 0.069392845  time: 359.73899030685425 step: 28101 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.060875084 l2_loss: 0.019411722 total_loss: 0.08028681  time: 360.4541254043579 step: 28201 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.14274608 l2_loss: 0.019410644 total_loss: 0.16215672  time: 362.0555341243744 step: 28301 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.040852815 l2_loss: 0.019406633 total_loss: 0.060259447  time: 357.64379596710205 step: 28401 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.09746173 l2_loss: 0.01939884 total_loss: 0.11686057  time: 362.72312092781067 step: 28501 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.056133293 l2_loss: 0.019390075 total_loss: 0.07552337  time: 358.36921072006226 step: 28601 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.101768464 l2_loss: 0.01938209 total_loss: 0.12115055  time: 360.42266058921814 step: 28701 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.065858126 l2_loss: 0.019370958 total_loss: 0.085229084  time: 362.3183431625366 step: 28801 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.08408643 l2_loss: 0.019360792 total_loss: 0.10344723  time: 359.61090207099915 step: 28901 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.09778336 l2_loss: 0.0193523 total_loss: 0.11713566  time: 357.6037437915802 step: 29001 lr: 2.4e-05
+[1,0]<stdout>:check point saved===================================
+[1,0]<stdout>:model_loss: 0.04626985 l2_loss: 0.01934547 total_loss: 0.06561532  time: 360.01366901397705 step: 29101 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.06684019 l2_loss: 0.01933321 total_loss: 0.0861734  time: 363.98987770080566 step: 29201 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.092177495 l2_loss: 0.019321429 total_loss: 0.11149892  time: 358.98728585243225 step: 29301 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.06444325 l2_loss: 0.019307146 total_loss: 0.0837504  time: 360.10994148254395 step: 29401 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.05104635 l2_loss: 0.01929816 total_loss: 0.07034451  time: 360.99804520606995 step: 29501 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.06570966 l2_loss: 0.019291507 total_loss: 0.08500116  time: 359.6929576396942 step: 29601 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.08589465 l2_loss: 0.019290557 total_loss: 0.10518521  time: 360.33600997924805 step: 29701 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.11091302 l2_loss: 0.019287838 total_loss: 0.13020086  time: 362.3575336933136 step: 29801 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.0930127 l2_loss: 0.019288506 total_loss: 0.1123012  time: 365.3868181705475 step: 29901 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.0663865 l2_loss: 0.019288037 total_loss: 0.08567454  time: 365.6971278190613 step: 30001 lr: 2.4e-05
+[1,0]<stdout>:check point saved===================================
+[1,0]<stdout>:model_loss: 0.049088858 l2_loss: 0.019284276 total_loss: 0.068373136  time: 364.23233938217163 step: 30101 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.13247868 l2_loss: 0.01928124 total_loss: 0.15175992  time: 364.2148742675781 step: 30201 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.09858595 l2_loss: 0.019278133 total_loss: 0.11786408  time: 361.9912211894989 step: 30301 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.1590613 l2_loss: 0.019278705 total_loss: 0.17834  time: 368.98712682724 step: 30401 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.06917799 l2_loss: 0.019278845 total_loss: 0.08845684  time: 362.19837617874146 step: 30501 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.09892937 l2_loss: 0.019281242 total_loss: 0.118210614  time: 361.8186662197113 step: 30601 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.12449334 l2_loss: 0.019286992 total_loss: 0.14378034  time: 361.9682106971741 step: 30701 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.16175081 l2_loss: 0.019289536 total_loss: 0.18104035  time: 357.99118185043335 step: 30801 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.097326204 l2_loss: 0.019291747 total_loss: 0.11661795  time: 362.3533296585083 step: 30901 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.16178364 l2_loss: 0.019295214 total_loss: 0.18107885  time: 365.0804486274719 step: 31001 lr: 2.4e-05
+[1,0]<stdout>:check point saved===================================
+[1,0]<stdout>:model_loss: 0.1442572 l2_loss: 0.019296149 total_loss: 0.16355336  time: 364.8763246536255 step: 31101 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.15621376 l2_loss: 0.01929317 total_loss: 0.17550693  time: 365.3998522758484 step: 31201 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.079432 l2_loss: 0.019284975 total_loss: 0.098716974  time: 359.75448775291443 step: 31301 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.121440694 l2_loss: 0.019280799 total_loss: 0.1407215  time: 361.49761056900024 step: 31401 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.08128882 l2_loss: 0.019275466 total_loss: 0.100564286  time: 366.08203172683716 step: 31501 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.07626755 l2_loss: 0.019268679 total_loss: 0.095536225  time: 371.57551860809326 step: 31601 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.08866988 l2_loss: 0.019262053 total_loss: 0.107931934  time: 369.4249711036682 step: 31701 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.09634296 l2_loss: 0.019257534 total_loss: 0.1156005  time: 367.0525369644165 step: 31801 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.1170423 l2_loss: 0.019254217 total_loss: 0.13629653  time: 366.35783886909485 step: 31901 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.121316 l2_loss: 0.019250138 total_loss: 0.14056614  time: 358.9319694042206 step: 32001 lr: 2.4e-05
+[1,0]<stdout>:check point saved===================================
+[1,0]<stdout>:model_loss: 0.12936108 l2_loss: 0.019242926 total_loss: 0.148604  time: 364.5034604072571 step: 32101 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.12563019 l2_loss: 0.01924274 total_loss: 0.14487292  time: 361.9579565525055 step: 32201 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.08430755 l2_loss: 0.0192529 total_loss: 0.10356045  time: 368.37831258773804 step: 32301 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.09010324 l2_loss: 0.019248592 total_loss: 0.10935183  time: 368.1771206855774 step: 32401 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.14249368 l2_loss: 0.019244539 total_loss: 0.16173822  time: 366.06586503982544 step: 32501 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.18457891 l2_loss: 0.019242592 total_loss: 0.20382151  time: 365.76903319358826 step: 32601 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.1412051 l2_loss: 0.019238824 total_loss: 0.16044393  time: 363.3890769481659 step: 32701 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.10496943 l2_loss: 0.01923482 total_loss: 0.12420425  time: 362.23873376846313 step: 32801 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.16045418 l2_loss: 0.01923054 total_loss: 0.17968473  time: 364.13729071617126 step: 32901 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.12291661 l2_loss: 0.019257328 total_loss: 0.14217393  time: 364.0562207698822 step: 33001 lr: 2.4e-05
+[1,0]<stdout>:check point saved===================================
+[1,0]<stdout>:model_loss: 0.15132822 l2_loss: 0.019251842 total_loss: 0.17058006  time: 360.5112268924713 step: 33101 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.06594909 l2_loss: 0.019246215 total_loss: 0.0851953  time: 360.5441036224365 step: 33201 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.073671214 l2_loss: 0.019266421 total_loss: 0.09293763  time: 362.3194258213043 step: 33301 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.10214784 l2_loss: 0.019255979 total_loss: 0.12140382  time: 359.6287260055542 step: 33401 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.058584888 l2_loss: 0.019245835 total_loss: 0.077830724  time: 361.42465829849243 step: 33501 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.1016665 l2_loss: 0.019236889 total_loss: 0.12090339  time: 360.3307445049286 step: 33601 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.06359252 l2_loss: 0.019230291 total_loss: 0.082822815  time: 361.5909993648529 step: 33701 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.06264268 l2_loss: 0.0192189 total_loss: 0.08186158  time: 359.30485677719116 step: 33801 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.10074247 l2_loss: 0.019208588 total_loss: 0.119951054  time: 358.6622133255005 step: 33901 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.07076607 l2_loss: 0.019196749 total_loss: 0.08996282  time: 357.3674943447113 step: 34001 lr: 2.4e-05
+[1,0]<stdout>:check point saved===================================
+[1,0]<stdout>:model_loss: 0.05458688 l2_loss: 0.019186815 total_loss: 0.0737737  time: 361.2007431983948 step: 34101 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.057678785 l2_loss: 0.019173218 total_loss: 0.076852  time: 357.9351706504822 step: 34201 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.12586398 l2_loss: 0.019162074 total_loss: 0.14502606  time: 360.5119025707245 step: 34301 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.053126 l2_loss: 0.019154413 total_loss: 0.072280414  time: 359.4187204837799 step: 34401 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.16838177 l2_loss: 0.01914866 total_loss: 0.18753043  time: 358.83518075942993 step: 34501 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.12787521 l2_loss: 0.019145243 total_loss: 0.14702046  time: 358.77225160598755 step: 34601 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.08035879 l2_loss: 0.019147262 total_loss: 0.09950605  time: 358.21060156822205 step: 34701 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.08422806 l2_loss: 0.019153299 total_loss: 0.10338136  time: 360.7503342628479 step: 34801 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.075727545 l2_loss: 0.01915578 total_loss: 0.09488332  time: 360.4781529903412 step: 34901 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.091228984 l2_loss: 0.019159155 total_loss: 0.11038814  time: 358.4745707511902 step: 35001 lr: 2.4e-05
+[1,0]<stdout>:check point saved===================================
+[1,0]<stdout>:model_loss: 0.11107896 l2_loss: 0.01916329 total_loss: 0.13024226  time: 362.77736139297485 step: 35101 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.1155615 l2_loss: 0.019156879 total_loss: 0.13471837  time: 359.942898273468 step: 35201 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.10277574 l2_loss: 0.019147668 total_loss: 0.1219234  time: 358.2761378288269 step: 35301 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.097399645 l2_loss: 0.019135732 total_loss: 0.11653538  time: 358.19484519958496 step: 35401 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.08254675 l2_loss: 0.019124357 total_loss: 0.10167111  time: 362.9600405693054 step: 35501 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.14117849 l2_loss: 0.01911652 total_loss: 0.16029501  time: 360.4620945453644 step: 35601 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.0681398 l2_loss: 0.019111749 total_loss: 0.087251544  time: 360.02531027793884 step: 35701 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.06210889 l2_loss: 0.019109359 total_loss: 0.08121825  time: 359.0612030029297 step: 35801 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.12014685 l2_loss: 0.0191043 total_loss: 0.13925114  time: 361.5340437889099 step: 35901 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.12661174 l2_loss: 0.019102767 total_loss: 0.1457145  time: 362.84112095832825 step: 36001 lr: 2.4e-05
+[1,0]<stdout>:check point saved===================================
+[1,0]<stdout>:model_loss: 0.07864013 l2_loss: 0.0191015 total_loss: 0.09774163  time: 360.40176606178284 step: 36101 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.07137361 l2_loss: 0.019096406 total_loss: 0.090470016  time: 355.6832945346832 step: 36201 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.10761222 l2_loss: 0.01909559 total_loss: 0.1267078  time: 359.7467315196991 step: 36301 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.070329934 l2_loss: 0.019094491 total_loss: 0.089424424  time: 358.6147859096527 step: 36401 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.08503001 l2_loss: 0.019096293 total_loss: 0.104126304  time: 360.4167447090149 step: 36501 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.07966443 l2_loss: 0.019101739 total_loss: 0.09876617  time: 358.9505751132965 step: 36601 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.0908006 l2_loss: 0.019104071 total_loss: 0.10990467  time: 359.3711612224579 step: 36701 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.11311748 l2_loss: 0.01911062 total_loss: 0.1322281  time: 359.4489686489105 step: 36801 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.10782353 l2_loss: 0.01911388 total_loss: 0.1269374  time: 358.73549914360046 step: 36901 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.14632274 l2_loss: 0.019129874 total_loss: 0.16545261  time: 357.98277139663696 step: 37001 lr: 2.4e-05
+[1,0]<stdout>:check point saved===================================
+[1,0]<stdout>:model_loss: 0.08386936 l2_loss: 0.019131249 total_loss: 0.10300061  time: 359.2272789478302 step: 37101 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.07360374 l2_loss: 0.01912904 total_loss: 0.09273278  time: 357.5322051048279 step: 37201 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.1465709 l2_loss: 0.019121155 total_loss: 0.16569206  time: 365.00055170059204 step: 37301 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.07216227 l2_loss: 0.019114057 total_loss: 0.091276325  time: 366.88817048072815 step: 37401 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.05291685 l2_loss: 0.019106723 total_loss: 0.07202357  time: 362.2700765132904 step: 37501 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.10109485 l2_loss: 0.019100301 total_loss: 0.12019515  time: 359.32252073287964 step: 37601 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.11042693 l2_loss: 0.019092802 total_loss: 0.12951973  time: 363.10209918022156 step: 37701 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.10163284 l2_loss: 0.019086862 total_loss: 0.1207197  time: 363.25865864753723 step: 37801 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.06965474 l2_loss: 0.019079505 total_loss: 0.08873425  time: 357.81677770614624 step: 37901 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.05184737 l2_loss: 0.01907297 total_loss: 0.07092034  time: 360.20042300224304 step: 38001 lr: 2.4e-05
+[1,0]<stdout>:check point saved===================================
+[1,0]<stdout>:model_loss: 0.073159896 l2_loss: 0.01906618 total_loss: 0.09222607  time: 352.147420167923 step: 38101 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.13241586 l2_loss: 0.019061752 total_loss: 0.1514776  time: 357.66375398635864 step: 38201 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.11925612 l2_loss: 0.019056976 total_loss: 0.13831308  time: 359.69669675827026 step: 38301 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.09049443 l2_loss: 0.019054659 total_loss: 0.10954909  time: 363.3948435783386 step: 38401 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.07136556 l2_loss: 0.019051857 total_loss: 0.090417415  time: 364.456417798996 step: 38501 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.08916009 l2_loss: 0.019046774 total_loss: 0.10820687  time: 364.24458360671997 step: 38601 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.067385465 l2_loss: 0.01903957 total_loss: 0.086425036  time: 359.8596246242523 step: 38701 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.1166297 l2_loss: 0.019032836 total_loss: 0.13566253  time: 359.29018902778625 step: 38801 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.12682013 l2_loss: 0.0190265 total_loss: 0.14584664  time: 359.19592237472534 step: 38901 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.07924169 l2_loss: 0.01901885 total_loss: 0.098260544  time: 357.72458505630493 step: 39001 lr: 2.4e-05
+[1,0]<stdout>:check point saved===================================
+[1,0]<stdout>:model_loss: 0.087904826 l2_loss: 0.019009674 total_loss: 0.1069145  time: 359.47615003585815 step: 39101 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.04732625 l2_loss: 0.01900335 total_loss: 0.0663296  time: 361.0118179321289 step: 39201 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.0673463 l2_loss: 0.018995598 total_loss: 0.086341895  time: 362.2128527164459 step: 39301 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.085354246 l2_loss: 0.018989714 total_loss: 0.10434396  time: 360.34232234954834 step: 39401 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.068557575 l2_loss: 0.018985506 total_loss: 0.087543085  time: 363.19850277900696 step: 39501 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.06407572 l2_loss: 0.018980162 total_loss: 0.08305588  time: 363.50597620010376 step: 39601 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.08527399 l2_loss: 0.019026726 total_loss: 0.104300715  time: 364.90718245506287 step: 39701 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.11109309 l2_loss: 0.019021923 total_loss: 0.13011502  time: 364.1500391960144 step: 39801 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.102066144 l2_loss: 0.019013904 total_loss: 0.12108005  time: 364.2170810699463 step: 39901 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.081546605 l2_loss: 0.019006923 total_loss: 0.10055353  time: 359.24180483818054 step: 40001 lr: 2.4e-05
+[1,0]<stdout>:check point saved===================================
+[1,0]<stdout>:model_loss: 0.07956111 l2_loss: 0.018999543 total_loss: 0.098560646  time: 357.07395911216736 step: 40101 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.07738772 l2_loss: 0.018992204 total_loss: 0.09637992  time: 362.64014625549316 step: 40201 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.06822966 l2_loss: 0.01899013 total_loss: 0.08721979  time: 361.79783296585083 step: 40301 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.054285344 l2_loss: 0.018988071 total_loss: 0.07327341  time: 358.654545545578 step: 40401 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.089991875 l2_loss: 0.018985284 total_loss: 0.10897716  time: 360.7135558128357 step: 40501 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.07971807 l2_loss: 0.018980825 total_loss: 0.09869889  time: 364.74196124076843 step: 40601 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.19463833 l2_loss: 0.01897833 total_loss: 0.21361665  time: 365.18251037597656 step: 40701 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.087374076 l2_loss: 0.01898423 total_loss: 0.106358305  time: 360.79246830940247 step: 40801 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.15209453 l2_loss: 0.018981367 total_loss: 0.1710759  time: 362.7445969581604 step: 40901 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.10148306 l2_loss: 0.01897504 total_loss: 0.1204581  time: 359.92417883872986 step: 41001 lr: 2.4e-05
+[1,0]<stdout>:check point saved===================================
+[1,0]<stdout>:model_loss: 0.08187132 l2_loss: 0.018971745 total_loss: 0.10084307  time: 360.7650408744812 step: 41101 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.08051838 l2_loss: 0.018970896 total_loss: 0.09948927  time: 361.1823134422302 step: 41201 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.13769461 l2_loss: 0.018969445 total_loss: 0.15666406  time: 363.76899695396423 step: 41301 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.0665571 l2_loss: 0.018971417 total_loss: 0.08552852  time: 360.4548258781433 step: 41401 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.070330955 l2_loss: 0.01896939 total_loss: 0.08930035  time: 362.84739875793457 step: 41501 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.084000416 l2_loss: 0.018968144 total_loss: 0.10296856  time: 362.5028946399689 step: 41601 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.104053386 l2_loss: 0.018963933 total_loss: 0.12301732  time: 364.27300214767456 step: 41701 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.12405461 l2_loss: 0.018962862 total_loss: 0.14301747  time: 363.01094150543213 step: 41801 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.08796583 l2_loss: 0.018956613 total_loss: 0.10692245  time: 362.6080849170685 step: 41901 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.0732017 l2_loss: 0.01895498 total_loss: 0.09215668  time: 357.8888325691223 step: 42001 lr: 2.4e-05
+[1,0]<stdout>:check point saved===================================
+[1,0]<stdout>:model_loss: 0.060662966 l2_loss: 0.018953532 total_loss: 0.0796165  time: 359.35166668891907 step: 42101 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.097274624 l2_loss: 0.018947506 total_loss: 0.11622213  time: 361.94277906417847 step: 42201 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.1042449 l2_loss: 0.01894165 total_loss: 0.12318655  time: 363.27425026893616 step: 42301 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.07621832 l2_loss: 0.018938629 total_loss: 0.09515695  time: 359.7893395423889 step: 42401 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.10101636 l2_loss: 0.018935556 total_loss: 0.11995191  time: 361.88489174842834 step: 42501 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.07396064 l2_loss: 0.018933002 total_loss: 0.092893645  time: 365.5128057003021 step: 42601 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.12799814 l2_loss: 0.018931018 total_loss: 0.14692916  time: 361.10622692108154 step: 42701 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.09906383 l2_loss: 0.01892794 total_loss: 0.11799177  time: 364.1267364025116 step: 42801 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.09131692 l2_loss: 0.018927222 total_loss: 0.11024415  time: 358.9837791919708 step: 42901 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.1317992 l2_loss: 0.018932175 total_loss: 0.15073138  time: 360.0922796726227 step: 43001 lr: 2.4e-05
+[1,0]<stdout>:check point saved===================================
+[1,0]<stdout>:model_loss: 0.09866046 l2_loss: 0.01893816 total_loss: 0.11759862  time: 356.1934096813202 step: 43101 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.09400016 l2_loss: 0.018941037 total_loss: 0.1129412  time: 362.66043639183044 step: 43201 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.08872343 l2_loss: 0.018979864 total_loss: 0.10770329  time: 362.6177542209625 step: 43301 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.11218294 l2_loss: 0.018983513 total_loss: 0.13116646  time: 362.7384946346283 step: 43401 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.10432332 l2_loss: 0.018982952 total_loss: 0.123306274  time: 362.9817271232605 step: 43501 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.07619945 l2_loss: 0.01898326 total_loss: 0.09518271  time: 363.11211705207825 step: 43601 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.05829185 l2_loss: 0.018987063 total_loss: 0.07727891  time: 363.2755835056305 step: 43701 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.07026568 l2_loss: 0.018989796 total_loss: 0.089255475  time: 360.8708863258362 step: 43801 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.052151404 l2_loss: 0.01898987 total_loss: 0.07114127  time: 361.58909726142883 step: 43901 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.07146403 l2_loss: 0.018986257 total_loss: 0.09045029  time: 360.1222541332245 step: 44001 lr: 2.4e-05
+[1,0]<stdout>:check point saved===================================
+[1,0]<stdout>:model_loss: 0.07172705 l2_loss: 0.018983817 total_loss: 0.09071087  time: 365.3550298213959 step: 44101 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.054854617 l2_loss: 0.018984484 total_loss: 0.0738391  time: 360.3307435512543 step: 44201 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.10828939 l2_loss: 0.018982409 total_loss: 0.1272718  time: 359.67339634895325 step: 44301 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.123710096 l2_loss: 0.018978707 total_loss: 0.14268881  time: 359.4482662677765 step: 44401 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.11082712 l2_loss: 0.018976802 total_loss: 0.12980393  time: 359.3225576877594 step: 44501 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.11708408 l2_loss: 0.01897518 total_loss: 0.13605925  time: 361.1759910583496 step: 44601 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.08939307 l2_loss: 0.018971376 total_loss: 0.10836445  time: 356.4326763153076 step: 44701 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.10079401 l2_loss: 0.018969167 total_loss: 0.11976318  time: 357.9401664733887 step: 44801 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.09652871 l2_loss: 0.018963333 total_loss: 0.115492046  time: 362.8586447238922 step: 44901 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.089899994 l2_loss: 0.01895606 total_loss: 0.10885605  time: 362.13645029067993 step: 45001 lr: 2.4e-05
+[1,0]<stdout>:check point saved===================================
+[1,0]<stdout>:model_loss: 0.09111708 l2_loss: 0.01894765 total_loss: 0.11006473  time: 363.73512148857117 step: 45101 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.07774918 l2_loss: 0.018937746 total_loss: 0.09668692  time: 356.82275342941284 step: 45201 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.090493865 l2_loss: 0.01892946 total_loss: 0.109423324  time: 360.23481702804565 step: 45301 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.12698053 l2_loss: 0.01892054 total_loss: 0.14590107  time: 359.16698145866394 step: 45401 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.107052796 l2_loss: 0.018910414 total_loss: 0.12596321  time: 358.41813468933105 step: 45501 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.12607263 l2_loss: 0.01890109 total_loss: 0.14497373  time: 361.0807297229767 step: 45601 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.12000664 l2_loss: 0.018888742 total_loss: 0.13889539  time: 364.03800225257874 step: 45701 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.13020511 l2_loss: 0.018874187 total_loss: 0.1490793  time: 358.04660654067993 step: 45801 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.115733154 l2_loss: 0.01886231 total_loss: 0.13459547  time: 360.4857795238495 step: 45901 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.071697935 l2_loss: 0.018852722 total_loss: 0.09055066  time: 361.43848848342896 step: 46001 lr: 2.4e-05
+[1,0]<stdout>:check point saved===================================
+[1,0]<stdout>:model_loss: 0.08908823 l2_loss: 0.018840795 total_loss: 0.10792903  time: 364.58096265792847 step: 46101 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.09667342 l2_loss: 0.018831227 total_loss: 0.11550465  time: 364.1954746246338 step: 46201 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.08544655 l2_loss: 0.018823609 total_loss: 0.10427016  time: 360.27841448783875 step: 46301 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.08685962 l2_loss: 0.018817233 total_loss: 0.10567685  time: 361.09511399269104 step: 46401 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.053750027 l2_loss: 0.018810842 total_loss: 0.07256087  time: 356.68703746795654 step: 46501 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.07313334 l2_loss: 0.018803824 total_loss: 0.09193717  time: 358.5179843902588 step: 46601 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.09378253 l2_loss: 0.018801019 total_loss: 0.11258355  time: 360.3714029788971 step: 46701 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.08644755 l2_loss: 0.018801004 total_loss: 0.105248556  time: 361.4796860218048 step: 46801 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.08605726 l2_loss: 0.01880075 total_loss: 0.10485801  time: 360.16966009140015 step: 46901 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.069745764 l2_loss: 0.018803937 total_loss: 0.0885497  time: 361.20799136161804 step: 47001 lr: 2.4e-05
+[1,0]<stdout>:check point saved===================================
+[1,0]<stdout>:model_loss: 0.07898838 l2_loss: 0.01880038 total_loss: 0.09778876  time: 361.1228504180908 step: 47101 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.09366341 l2_loss: 0.018796042 total_loss: 0.11245945  time: 358.095986366272 step: 47201 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.06744424 l2_loss: 0.018793289 total_loss: 0.086237535  time: 355.76939511299133 step: 47301 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.10675978 l2_loss: 0.01878991 total_loss: 0.12554969  time: 361.0489583015442 step: 47401 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.07127097 l2_loss: 0.018787848 total_loss: 0.09005882  time: 358.25499272346497 step: 47501 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.115620695 l2_loss: 0.018791707 total_loss: 0.13441241  time: 359.7306900024414 step: 47601 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.09335012 l2_loss: 0.018790293 total_loss: 0.11214042  time: 359.90060544013977 step: 47701 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.12491527 l2_loss: 0.01879246 total_loss: 0.14370774  time: 360.62870144844055 step: 47801 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.15962175 l2_loss: 0.018802805 total_loss: 0.17842455  time: 356.53311824798584 step: 47901 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.077601805 l2_loss: 0.018812282 total_loss: 0.09641409  time: 362.4687557220459 step: 48001 lr: 2.4e-05
+[1,0]<stdout>:check point saved===================================
+[1,0]<stdout>:model_loss: 0.071964875 l2_loss: 0.01882109 total_loss: 0.090785965  time: 360.0529782772064 step: 48101 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.08297388 l2_loss: 0.018851543 total_loss: 0.10182542  time: 360.5789852142334 step: 48201 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.08391956 l2_loss: 0.018854123 total_loss: 0.10277368  time: 361.66516041755676 step: 48301 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.1158856 l2_loss: 0.018856365 total_loss: 0.13474196  time: 360.76201152801514 step: 48401 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.099027425 l2_loss: 0.018859452 total_loss: 0.11788688  time: 356.5066702365875 step: 48501 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.08182169 l2_loss: 0.0188615 total_loss: 0.10068319  time: 360.76014137268066 step: 48601 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.08464065 l2_loss: 0.01886268 total_loss: 0.10350333  time: 358.83236718177795 step: 48701 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.071088664 l2_loss: 0.018860046 total_loss: 0.089948714  time: 360.0688729286194 step: 48801 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.061448418 l2_loss: 0.018854562 total_loss: 0.08030298  time: 363.08906269073486 step: 48901 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.0982976 l2_loss: 0.018848773 total_loss: 0.11714637  time: 362.4870979785919 step: 49001 lr: 2.4e-05
+[1,0]<stdout>:check point saved===================================
+[1,0]<stdout>:model_loss: 0.08435962 l2_loss: 0.018845607 total_loss: 0.103205234  time: 358.8970935344696 step: 49101 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.052693784 l2_loss: 0.018840408 total_loss: 0.071534194  time: 358.58258605003357 step: 49201 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.037914563 l2_loss: 0.018834783 total_loss: 0.056749344  time: 360.9207458496094 step: 49301 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.09180593 l2_loss: 0.018828796 total_loss: 0.11063472  time: 361.814843416214 step: 49401 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.08596101 l2_loss: 0.018825633 total_loss: 0.10478664  time: 365.2141478061676 step: 49501 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.06611269 l2_loss: 0.018821878 total_loss: 0.08493457  time: 364.69922137260437 step: 49601 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.14953251 l2_loss: 0.018821009 total_loss: 0.16835353  time: 363.86265230178833 step: 49701 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.10371521 l2_loss: 0.018825414 total_loss: 0.12254062  time: 358.92100048065186 step: 49801 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.076797634 l2_loss: 0.018830368 total_loss: 0.095628  time: 362.49566411972046 step: 49901 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.09559484 l2_loss: 0.018833775 total_loss: 0.11442861  time: 362.06356620788574 step: 50001 lr: 2.4e-05
+[1,0]<stdout>:check point saved===================================
+[1,0]<stdout>:model_loss: 0.054809716 l2_loss: 0.018833252 total_loss: 0.07364297  time: 358.9131455421448 step: 50101 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.075308286 l2_loss: 0.01883342 total_loss: 0.09414171  time: 362.2427852153778 step: 50201 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.040048063 l2_loss: 0.01883676 total_loss: 0.05888482  time: 357.4150609970093 step: 50301 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.09708692 l2_loss: 0.018835694 total_loss: 0.115922615  time: 362.02786135673523 step: 50401 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.094918996 l2_loss: 0.018834652 total_loss: 0.11375365  time: 362.7597553730011 step: 50501 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.07443151 l2_loss: 0.018834502 total_loss: 0.09326601  time: 362.4906008243561 step: 50601 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.11420805 l2_loss: 0.018830981 total_loss: 0.13303903  time: 364.39402508735657 step: 50701 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.08777489 l2_loss: 0.018827591 total_loss: 0.106602475  time: 359.71180057525635 step: 50801 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.10147444 l2_loss: 0.018826712 total_loss: 0.12030116  time: 366.97788882255554 step: 50901 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.09097154 l2_loss: 0.018823592 total_loss: 0.10979513  time: 362.9650967121124 step: 51001 lr: 2.4e-05
+[1,0]<stdout>:check point saved===================================
+[1,0]<stdout>:model_loss: 0.049817123 l2_loss: 0.018820297 total_loss: 0.068637416  time: 365.5468547344208 step: 51101 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.061518308 l2_loss: 0.018820982 total_loss: 0.08033929  time: 367.28116965293884 step: 51201 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.06723755 l2_loss: 0.018818043 total_loss: 0.08605559  time: 360.73027205467224 step: 51301 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.06971794 l2_loss: 0.018812068 total_loss: 0.08853001  time: 359.1424458026886 step: 51401 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.08301148 l2_loss: 0.018806592 total_loss: 0.10181807  time: 359.7751250267029 step: 51501 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.10914205 l2_loss: 0.0188001 total_loss: 0.12794214  time: 358.19412446022034 step: 51601 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.06829563 l2_loss: 0.01879273 total_loss: 0.08708836  time: 363.25623059272766 step: 51701 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.104705945 l2_loss: 0.01878735 total_loss: 0.1234933  time: 361.31446743011475 step: 51801 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.09803427 l2_loss: 0.018787246 total_loss: 0.11682151  time: 363.564795255661 step: 51901 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.07392065 l2_loss: 0.018781647 total_loss: 0.0927023  time: 358.6028399467468 step: 52001 lr: 2.4e-05
+[1,0]<stdout>:check point saved===================================
+[1,0]<stdout>:model_loss: 0.08457653 l2_loss: 0.01877727 total_loss: 0.1033538  time: 362.7656614780426 step: 52101 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.12587166 l2_loss: 0.018771848 total_loss: 0.1446435  time: 363.00386142730713 step: 52201 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.10278366 l2_loss: 0.018765451 total_loss: 0.12154911  time: 363.1995692253113 step: 52301 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.03789611 l2_loss: 0.018760305 total_loss: 0.056656417  time: 362.57412362098694 step: 52401 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.0629926 l2_loss: 0.018758066 total_loss: 0.08175067  time: 354.92975974082947 step: 52501 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.064796776 l2_loss: 0.018760474 total_loss: 0.08355725  time: 363.2987411022186 step: 52601 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.052415486 l2_loss: 0.018762508 total_loss: 0.071178  time: 362.1622965335846 step: 52701 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.046425026 l2_loss: 0.01876987 total_loss: 0.0651949  time: 360.21594309806824 step: 52801 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.11443187 l2_loss: 0.018767009 total_loss: 0.13319889  time: 361.8200876712799 step: 52901 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.092170194 l2_loss: 0.018764835 total_loss: 0.11093503  time: 356.2849373817444 step: 53001 lr: 2.4e-05
+[1,0]<stdout>:check point saved===================================
+[1,0]<stdout>:model_loss: 0.08114306 l2_loss: 0.018762467 total_loss: 0.09990553  time: 358.8928015232086 step: 53101 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.11458324 l2_loss: 0.01875243 total_loss: 0.13333566  time: 357.5946099758148 step: 53201 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.07325839 l2_loss: 0.01874675 total_loss: 0.09200514  time: 361.413428068161 step: 53301 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.16564439 l2_loss: 0.018742435 total_loss: 0.18438682  time: 360.48822116851807 step: 53401 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.13700633 l2_loss: 0.018745057 total_loss: 0.15575138  time: 355.93213963508606 step: 53501 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.080117926 l2_loss: 0.018743252 total_loss: 0.09886118  time: 362.73187232017517 step: 53601 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.09138584 l2_loss: 0.018741861 total_loss: 0.1101277  time: 358.6199450492859 step: 53701 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.11896303 l2_loss: 0.01874551 total_loss: 0.13770854  time: 358.8538143634796 step: 53801 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.064921156 l2_loss: 0.01875345 total_loss: 0.08367461  time: 357.6246237754822 step: 53901 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.0720282 l2_loss: 0.018754354 total_loss: 0.09078255  time: 359.7466266155243 step: 54001 lr: 2.4e-05
+[1,0]<stdout>:check point saved===================================
+[1,0]<stdout>:model_loss: 0.12265345 l2_loss: 0.018748617 total_loss: 0.14140207  time: 358.809326171875 step: 54101 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.12007618 l2_loss: 0.01874431 total_loss: 0.13882048  time: 363.9417703151703 step: 54201 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.08379063 l2_loss: 0.018742288 total_loss: 0.102532916  time: 358.5932631492615 step: 54301 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.073437676 l2_loss: 0.018742714 total_loss: 0.092180386  time: 358.86868929862976 step: 54401 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.086211815 l2_loss: 0.018741522 total_loss: 0.104953334  time: 362.595796585083 step: 54501 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.08952941 l2_loss: 0.018737793 total_loss: 0.1082672  time: 356.53540420532227 step: 54601 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.08772868 l2_loss: 0.018739356 total_loss: 0.10646804  time: 361.80082535743713 step: 54701 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.0659948 l2_loss: 0.018739427 total_loss: 0.084734224  time: 362.95852494239807 step: 54801 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.09738598 l2_loss: 0.01873937 total_loss: 0.11612535  time: 361.74837374687195 step: 54901 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.04117823 l2_loss: 0.018739797 total_loss: 0.059918027  time: 364.3913083076477 step: 55001 lr: 2.4e-05
+[1,0]<stdout>:check point saved===================================
+[1,0]<stdout>:model_loss: 0.08709167 l2_loss: 0.018738821 total_loss: 0.10583049  time: 364.35279655456543 step: 55101 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.078375556 l2_loss: 0.018740177 total_loss: 0.09711573  time: 361.740051984787 step: 55201 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.10346582 l2_loss: 0.01874092 total_loss: 0.12220674  time: 365.39085245132446 step: 55301 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.13382682 l2_loss: 0.018737828 total_loss: 0.15256464  time: 362.64161467552185 step: 55401 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.082467146 l2_loss: 0.018736735 total_loss: 0.10120388  time: 365.91541481018066 step: 55501 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.15188001 l2_loss: 0.018736301 total_loss: 0.17061631  time: 363.8179204463959 step: 55601 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.088886134 l2_loss: 0.018736353 total_loss: 0.10762249  time: 363.1623411178589 step: 55701 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.10309403 l2_loss: 0.018743016 total_loss: 0.12183704  time: 363.87909388542175 step: 55801 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.11492512 l2_loss: 0.018746031 total_loss: 0.13367115  time: 357.4494700431824 step: 55901 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.05889602 l2_loss: 0.018741824 total_loss: 0.077637844  time: 358.8343050479889 step: 56001 lr: 2.4e-05
+[1,0]<stdout>:check point saved===================================
+[1,0]<stdout>:model_loss: 0.08635818 l2_loss: 0.018737474 total_loss: 0.105095655  time: 363.21588039398193 step: 56101 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.09665767 l2_loss: 0.018730672 total_loss: 0.11538834  time: 362.0815818309784 step: 56201 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.11726636 l2_loss: 0.018726625 total_loss: 0.13599297  time: 363.51392006874084 step: 56301 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.128476 l2_loss: 0.018722039 total_loss: 0.14719804  time: 360.59217047691345 step: 56401 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.07468449 l2_loss: 0.018718906 total_loss: 0.0934034  time: 361.005006313324 step: 56501 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.059571434 l2_loss: 0.01871414 total_loss: 0.078285575  time: 359.8960614204407 step: 56601 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.0944135 l2_loss: 0.0187078 total_loss: 0.1131213  time: 360.2148094177246 step: 56701 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.07771048 l2_loss: 0.018701505 total_loss: 0.09641199  time: 357.6783130168915 step: 56801 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.05214529 l2_loss: 0.01869446 total_loss: 0.07083975  time: 361.8257358074188 step: 56901 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.037946727 l2_loss: 0.018686125 total_loss: 0.056632854  time: 362.0246214866638 step: 57001 lr: 2.4e-05
+[1,0]<stdout>:check point saved===================================
+[1,0]<stdout>:model_loss: 0.061339535 l2_loss: 0.018678997 total_loss: 0.080018535  time: 359.3873417377472 step: 57101 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.070663236 l2_loss: 0.018674627 total_loss: 0.08933786  time: 361.67604064941406 step: 57201 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.056987524 l2_loss: 0.018667841 total_loss: 0.07565536  time: 360.3411543369293 step: 57301 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.051491562 l2_loss: 0.018662192 total_loss: 0.07015376  time: 361.81005358695984 step: 57401 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.056511953 l2_loss: 0.018659359 total_loss: 0.075171314  time: 362.844717502594 step: 57501 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.09588127 l2_loss: 0.01865333 total_loss: 0.1145346  time: 361.2624611854553 step: 57601 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.059941083 l2_loss: 0.01864674 total_loss: 0.07858782  time: 364.54373955726624 step: 57701 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.084100895 l2_loss: 0.018639889 total_loss: 0.10274078  time: 358.1606914997101 step: 57801 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.0819048 l2_loss: 0.018635359 total_loss: 0.10054016  time: 360.3601989746094 step: 57901 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.10056315 l2_loss: 0.018630235 total_loss: 0.11919339  time: 354.4942944049835 step: 58001 lr: 2.4e-05
+[1,0]<stdout>:check point saved===================================
+[1,0]<stdout>:model_loss: 0.10994988 l2_loss: 0.01862265 total_loss: 0.12857252  time: 356.50640511512756 step: 58101 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.148426 l2_loss: 0.018618237 total_loss: 0.16704424  time: 366.8058578968048 step: 58201 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.07449505 l2_loss: 0.018618608 total_loss: 0.09311365  time: 360.5472159385681 step: 58301 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.16486669 l2_loss: 0.018623529 total_loss: 0.18349022  time: 361.35060262680054 step: 58401 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.15561508 l2_loss: 0.018624902 total_loss: 0.17423998  time: 361.923193693161 step: 58501 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.16177678 l2_loss: 0.01862627 total_loss: 0.18040305  time: 366.5466842651367 step: 58601 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.14236598 l2_loss: 0.01863144 total_loss: 0.16099742  time: 365.24183773994446 step: 58701 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.09913746 l2_loss: 0.018644711 total_loss: 0.117782176  time: 365.14028334617615 step: 58801 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.08829683 l2_loss: 0.018639259 total_loss: 0.10693609  time: 359.01724195480347 step: 58901 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.10065998 l2_loss: 0.01863068 total_loss: 0.119290665  time: 369.4838662147522 step: 59001 lr: 2.4e-05
+[1,0]<stdout>:check point saved===================================
+[1,0]<stdout>:model_loss: 0.079255514 l2_loss: 0.018627716 total_loss: 0.09788323  time: 364.7048616409302 step: 59101 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.07055102 l2_loss: 0.018625336 total_loss: 0.08917636  time: 360.32382798194885 step: 59201 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.07757037 l2_loss: 0.01862193 total_loss: 0.0961923  time: 367.5457637310028 step: 59301 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.09730917 l2_loss: 0.018620333 total_loss: 0.11592951  time: 368.5759689807892 step: 59401 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.076504834 l2_loss: 0.018622527 total_loss: 0.09512736  time: 362.49336099624634 step: 59501 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.085857846 l2_loss: 0.01862212 total_loss: 0.10447997  time: 370.75754952430725 step: 59601 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.051201083 l2_loss: 0.018620914 total_loss: 0.069822  time: 365.49968218803406 step: 59701 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.13292715 l2_loss: 0.018617488 total_loss: 0.15154463  time: 366.56561255455017 step: 59801 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.08028304 l2_loss: 0.018626913 total_loss: 0.09890995  time: 366.2054183483124 step: 59901 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.07438173 l2_loss: 0.018624341 total_loss: 0.093006074  time: 363.41504430770874 step: 60001 lr: 2.4e-05
+[1,0]<stdout>:check point saved===================================
+[1,0]<stdout>:model_loss: 0.076551184 l2_loss: 0.018620323 total_loss: 0.09517151  time: 359.6574926376343 step: 60101 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.09014044 l2_loss: 0.018617839 total_loss: 0.10875828  time: 361.1854543685913 step: 60201 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.061194543 l2_loss: 0.018613797 total_loss: 0.07980834  time: 363.9699249267578 step: 60301 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.06606652 l2_loss: 0.018610813 total_loss: 0.08467733  time: 362.5442395210266 step: 60401 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.07876538 l2_loss: 0.018605947 total_loss: 0.097371325  time: 360.27814078330994 step: 60501 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.05070079 l2_loss: 0.018607311 total_loss: 0.0693081  time: 362.1885678768158 step: 60601 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.033191092 l2_loss: 0.018607358 total_loss: 0.051798448  time: 355.20400381088257 step: 60701 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.05680511 l2_loss: 0.018610373 total_loss: 0.075415485  time: 357.1007487773895 step: 60801 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.073226824 l2_loss: 0.018608343 total_loss: 0.09183517  time: 361.6247160434723 step: 60901 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.13488895 l2_loss: 0.018612666 total_loss: 0.15350161  time: 361.5537552833557 step: 61001 lr: 2.4e-05
+[1,0]<stdout>:check point saved===================================
+[1,0]<stdout>:model_loss: 0.06278544 l2_loss: 0.018619392 total_loss: 0.081404835  time: 360.07754731178284 step: 61101 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.055675462 l2_loss: 0.018623063 total_loss: 0.07429852  time: 363.9418714046478 step: 61201 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.046810184 l2_loss: 0.01863167 total_loss: 0.065441854  time: 367.14478611946106 step: 61301 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.13695951 l2_loss: 0.018636264 total_loss: 0.15559578  time: 363.6944923400879 step: 61401 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.14977658 l2_loss: 0.018636635 total_loss: 0.1684132  time: 357.64657330513 step: 61501 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.09322144 l2_loss: 0.018635873 total_loss: 0.11185731  time: 361.08743476867676 step: 61601 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.09289652 l2_loss: 0.018636726 total_loss: 0.11153325  time: 362.18724036216736 step: 61701 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.13364603 l2_loss: 0.018637355 total_loss: 0.15228339  time: 361.2729344367981 step: 61801 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.07429171 l2_loss: 0.01864149 total_loss: 0.09293321  time: 360.9422218799591 step: 61901 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.16603997 l2_loss: 0.018639928 total_loss: 0.1846799  time: 364.50453209877014 step: 62001 lr: 2.4e-05
+[1,0]<stdout>:check point saved===================================
+[1,0]<stdout>:model_loss: 0.13846378 l2_loss: 0.018637972 total_loss: 0.15710175  time: 356.71340584754944 step: 62101 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.12053405 l2_loss: 0.018634567 total_loss: 0.13916862  time: 358.55647802352905 step: 62201 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.033624906 l2_loss: 0.018630503 total_loss: 0.052255407  time: 360.16688108444214 step: 62301 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.06681348 l2_loss: 0.018625723 total_loss: 0.0854392  time: 360.2919328212738 step: 62401 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.1454757 l2_loss: 0.018619072 total_loss: 0.16409478  time: 361.96423745155334 step: 62501 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.050177578 l2_loss: 0.018614022 total_loss: 0.0687916  time: 362.1309857368469 step: 62601 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.07053136 l2_loss: 0.018614197 total_loss: 0.089145556  time: 363.38507437705994 step: 62701 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.060850672 l2_loss: 0.018612213 total_loss: 0.079462886  time: 358.1652069091797 step: 62801 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.06779148 l2_loss: 0.01861326 total_loss: 0.08640474  time: 357.7156262397766 step: 62901 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.069672614 l2_loss: 0.018614806 total_loss: 0.08828742  time: 359.7607789039612 step: 63001 lr: 2.4e-05
+[1,0]<stdout>:check point saved===================================
+[1,0]<stdout>:model_loss: 0.06587751 l2_loss: 0.018626992 total_loss: 0.0845045  time: 361.96065735816956 step: 63101 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.087123774 l2_loss: 0.018624926 total_loss: 0.1057487  time: 361.63462138175964 step: 63201 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.102323085 l2_loss: 0.018622484 total_loss: 0.12094557  time: 361.63846945762634 step: 63301 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.08704596 l2_loss: 0.018619632 total_loss: 0.105665594  time: 359.66699981689453 step: 63401 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.078336395 l2_loss: 0.018616349 total_loss: 0.096952744  time: 363.82963728904724 step: 63501 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.111417994 l2_loss: 0.018608265 total_loss: 0.13002625  time: 359.75849771499634 step: 63601 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.07993373 l2_loss: 0.01860137 total_loss: 0.098535106  time: 361.62052750587463 step: 63701 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.0472765 l2_loss: 0.018596424 total_loss: 0.06587292  time: 358.92939829826355 step: 63801 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.08882089 l2_loss: 0.018588446 total_loss: 0.107409336  time: 363.77441215515137 step: 63901 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.056858517 l2_loss: 0.01857935 total_loss: 0.075437866  time: 363.432247877121 step: 64001 lr: 2.4e-05
+[1,0]<stdout>:check point saved===================================
+[1,0]<stdout>:model_loss: 0.048460748 l2_loss: 0.018567594 total_loss: 0.06702834  time: 357.28061413764954 step: 64101 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.05847411 l2_loss: 0.018559493 total_loss: 0.0770336  time: 359.4926645755768 step: 64201 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.09966866 l2_loss: 0.018555395 total_loss: 0.118224055  time: 360.2784869670868 step: 64301 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.102101676 l2_loss: 0.018552497 total_loss: 0.12065417  time: 361.789009809494 step: 64401 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.050377432 l2_loss: 0.018549507 total_loss: 0.06892694  time: 363.3668723106384 step: 64501 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.10050627 l2_loss: 0.018546173 total_loss: 0.11905244  time: 363.395804643631 step: 64601 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.08152926 l2_loss: 0.018548155 total_loss: 0.10007741  time: 359.7100553512573 step: 64701 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.046782516 l2_loss: 0.01855405 total_loss: 0.06533657  time: 357.84203243255615 step: 64801 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.088312134 l2_loss: 0.018555108 total_loss: 0.10686724  time: 361.52529644966125 step: 64901 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.062912196 l2_loss: 0.018556746 total_loss: 0.08146894  time: 360.91124844551086 step: 65001 lr: 2.4e-05
+[1,0]<stdout>:check point saved===================================
+[1,0]<stdout>:model_loss: 0.14048962 l2_loss: 0.018562032 total_loss: 0.15905166  time: 362.25234174728394 step: 65101 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.1314056 l2_loss: 0.018565353 total_loss: 0.14997096  time: 364.6659200191498 step: 65201 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.09134996 l2_loss: 0.018565953 total_loss: 0.10991591  time: 363.30484890937805 step: 65301 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.087960534 l2_loss: 0.018563917 total_loss: 0.10652445  time: 360.0370054244995 step: 65401 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.07247414 l2_loss: 0.018559517 total_loss: 0.09103365  time: 360.0452857017517 step: 65501 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.07687353 l2_loss: 0.018553376 total_loss: 0.09542691  time: 361.7254285812378 step: 65601 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.06773253 l2_loss: 0.018544834 total_loss: 0.086277366  time: 363.4367995262146 step: 65701 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.064862765 l2_loss: 0.018536163 total_loss: 0.08339893  time: 363.13843274116516 step: 65801 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.0632307 l2_loss: 0.01852973 total_loss: 0.08176043  time: 359.1887741088867 step: 65901 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.12935413 l2_loss: 0.01852401 total_loss: 0.14787814  time: 357.1070201396942 step: 66001 lr: 2.4e-05
+[1,0]<stdout>:check point saved===================================
+[1,0]<stdout>:model_loss: 0.120019734 l2_loss: 0.018520217 total_loss: 0.13853996  time: 363.17315220832825 step: 66101 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.05505069 l2_loss: 0.018523462 total_loss: 0.073574156  time: 363.4567379951477 step: 66201 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.08117277 l2_loss: 0.018533867 total_loss: 0.099706635  time: 360.8133327960968 step: 66301 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.11399949 l2_loss: 0.018538073 total_loss: 0.13253757  time: 355.1147630214691 step: 66401 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.08778818 l2_loss: 0.018541638 total_loss: 0.10632981  time: 360.7375576496124 step: 66501 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.09129111 l2_loss: 0.018546414 total_loss: 0.10983752  time: 362.8606505393982 step: 66601 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.16695663 l2_loss: 0.018546807 total_loss: 0.18550344  time: 356.2502589225769 step: 66701 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.089033805 l2_loss: 0.018550169 total_loss: 0.10758397  time: 362.27850794792175 step: 66801 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.1667671 l2_loss: 0.018546987 total_loss: 0.18531409  time: 359.87435817718506 step: 66901 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.12914872 l2_loss: 0.018544799 total_loss: 0.14769351  time: 358.76612281799316 step: 67001 lr: 2.4e-05
+[1,0]<stdout>:check point saved===================================
+[1,0]<stdout>:model_loss: 0.15129232 l2_loss: 0.018543392 total_loss: 0.16983572  time: 364.337527513504 step: 67101 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.11895895 l2_loss: 0.018564053 total_loss: 0.137523  time: 356.66996717453003 step: 67201 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.044312473 l2_loss: 0.01856635 total_loss: 0.062878825  time: 363.9455347061157 step: 67301 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.10754714 l2_loss: 0.018571323 total_loss: 0.12611847  time: 358.3252384662628 step: 67401 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.123665474 l2_loss: 0.018575165 total_loss: 0.14224064  time: 360.4815728664398 step: 67501 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.037806284 l2_loss: 0.018593393 total_loss: 0.056399677  time: 360.38406205177307 step: 67601 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.071399964 l2_loss: 0.0185892 total_loss: 0.08998916  time: 361.04940962791443 step: 67701 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.08265187 l2_loss: 0.018585026 total_loss: 0.101236895  time: 360.62681770324707 step: 67801 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.099379055 l2_loss: 0.018585797 total_loss: 0.11796485  time: 354.9465045928955 step: 67901 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.08704443 l2_loss: 0.01858274 total_loss: 0.10562717  time: 354.9610424041748 step: 68001 lr: 2.4e-05
+[1,0]<stdout>:check point saved===================================
+[1,0]<stdout>:model_loss: 0.027944578 l2_loss: 0.018583022 total_loss: 0.0465276  time: 360.58310413360596 step: 68101 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.08413636 l2_loss: 0.018584872 total_loss: 0.10272123  time: 363.2601537704468 step: 68201 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.121255696 l2_loss: 0.018587815 total_loss: 0.13984351  time: 366.9170639514923 step: 68301 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.07701898 l2_loss: 0.01859283 total_loss: 0.09561181  time: 364.9161026477814 step: 68401 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.08554666 l2_loss: 0.0185928 total_loss: 0.104139455  time: 370.7245373725891 step: 68501 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.06992634 l2_loss: 0.018589322 total_loss: 0.088515654  time: 367.0359687805176 step: 68601 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.05739289 l2_loss: 0.018586863 total_loss: 0.075979754  time: 366.8694865703583 step: 68701 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.07732566 l2_loss: 0.018591344 total_loss: 0.095917  time: 368.1738209724426 step: 68801 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.07977561 l2_loss: 0.018596338 total_loss: 0.098371945  time: 361.75212383270264 step: 68901 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.08321128 l2_loss: 0.018589849 total_loss: 0.10180113  time: 365.4742169380188 step: 69001 lr: 2.4e-05
+[1,0]<stdout>:check point saved===================================
+[1,0]<stdout>:model_loss: 0.071858875 l2_loss: 0.018582717 total_loss: 0.09044159  time: 370.962975025177 step: 69101 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.04510317 l2_loss: 0.018575571 total_loss: 0.06367874  time: 361.0126383304596 step: 69201 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.09630803 l2_loss: 0.018566146 total_loss: 0.11487418  time: 370.1046280860901 step: 69301 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.0667991 l2_loss: 0.018565813 total_loss: 0.08536491  time: 363.9264976978302 step: 69401 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.08673991 l2_loss: 0.018558472 total_loss: 0.105298385  time: 367.91457867622375 step: 69501 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.04736688 l2_loss: 0.018552141 total_loss: 0.06591902  time: 364.5550217628479 step: 69601 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.07475215 l2_loss: 0.018547377 total_loss: 0.09329953  time: 366.41527104377747 step: 69701 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.0943723 l2_loss: 0.018542403 total_loss: 0.112914704  time: 365.80691480636597 step: 69801 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.0799185 l2_loss: 0.018535623 total_loss: 0.09845412  time: 359.1246213912964 step: 69901 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.099763386 l2_loss: 0.018532412 total_loss: 0.118295796  time: 358.99397349357605 step: 70001 lr: 2.4e-05
+[1,0]<stdout>:check point saved===================================
+[1,0]<stdout>:model_loss: 0.12208733 l2_loss: 0.018585969 total_loss: 0.1406733  time: 356.1488378047943 step: 70101 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.06216348 l2_loss: 0.018597124 total_loss: 0.080760606  time: 358.3417749404907 step: 70201 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.078409895 l2_loss: 0.018595697 total_loss: 0.09700559  time: 361.0643255710602 step: 70301 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.06371895 l2_loss: 0.018595733 total_loss: 0.082314685  time: 361.90529203414917 step: 70401 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.066732444 l2_loss: 0.018595418 total_loss: 0.08532786  time: 366.1733469963074 step: 70501 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.09480484 l2_loss: 0.018599005 total_loss: 0.11340384  time: 360.64839935302734 step: 70601 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.07862697 l2_loss: 0.01859325 total_loss: 0.09722022  time: 358.4659860134125 step: 70701 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.08901767 l2_loss: 0.018583069 total_loss: 0.10760073  time: 364.12323212623596 step: 70801 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.1340887 l2_loss: 0.01857192 total_loss: 0.15266061  time: 360.4013125896454 step: 70901 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.07703499 l2_loss: 0.018561358 total_loss: 0.09559634  time: 357.6564733982086 step: 71001 lr: 2.4e-05
+[1,0]<stdout>:check point saved===================================
+[1,0]<stdout>:model_loss: 0.04499534 l2_loss: 0.018552944 total_loss: 0.06354828  time: 357.52024245262146 step: 71101 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.13786618 l2_loss: 0.018542584 total_loss: 0.15640877  time: 358.0974781513214 step: 71201 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.08172403 l2_loss: 0.018533822 total_loss: 0.10025786  time: 361.0485646724701 step: 71301 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.110518 l2_loss: 0.018524088 total_loss: 0.12904209  time: 363.1113793849945 step: 71401 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.066451035 l2_loss: 0.01851438 total_loss: 0.084965415  time: 358.28890562057495 step: 71501 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.10526031 l2_loss: 0.018503737 total_loss: 0.12376405  time: 357.89711713790894 step: 71601 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.09709072 l2_loss: 0.018492257 total_loss: 0.11558298  time: 359.003360748291 step: 71701 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.106602564 l2_loss: 0.018483102 total_loss: 0.12508567  time: 357.94888615608215 step: 71801 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.11833921 l2_loss: 0.018476998 total_loss: 0.1368162  time: 358.01219487190247 step: 71901 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.0962294 l2_loss: 0.018468302 total_loss: 0.114697695  time: 366.3909344673157 step: 72001 lr: 2.4e-05
+[1,0]<stdout>:check point saved===================================
+[1,0]<stdout>:model_loss: 0.0619464 l2_loss: 0.018459214 total_loss: 0.080405615  time: 362.05067324638367 step: 72101 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.089306794 l2_loss: 0.018453665 total_loss: 0.10776046  time: 362.5848343372345 step: 72201 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.070002146 l2_loss: 0.018448839 total_loss: 0.08845098  time: 360.7834770679474 step: 72301 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.073492855 l2_loss: 0.018448947 total_loss: 0.0919418  time: 358.71414279937744 step: 72401 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.09668604 l2_loss: 0.018444452 total_loss: 0.1151305  time: 366.277295589447 step: 72501 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.06677289 l2_loss: 0.01844105 total_loss: 0.085213944  time: 361.91584062576294 step: 72601 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.042694006 l2_loss: 0.018442493 total_loss: 0.0611365  time: 362.06308603286743 step: 72701 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.109924644 l2_loss: 0.018457362 total_loss: 0.12838201  time: 361.68421840667725 step: 72801 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.055053923 l2_loss: 0.01845975 total_loss: 0.07351367  time: 357.8440935611725 step: 72901 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.08787526 l2_loss: 0.018457403 total_loss: 0.10633267  time: 363.9710040092468 step: 73001 lr: 2.4e-05
+[1,0]<stdout>:check point saved===================================
+[1,0]<stdout>:model_loss: 0.07177277 l2_loss: 0.018459206 total_loss: 0.09023198  time: 361.77421712875366 step: 73101 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.105967276 l2_loss: 0.018463673 total_loss: 0.12443095  time: 360.76496982574463 step: 73201 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.08784248 l2_loss: 0.018465644 total_loss: 0.106308125  time: 361.3816108703613 step: 73301 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.09425301 l2_loss: 0.018469071 total_loss: 0.112722084  time: 358.40844345092773 step: 73401 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.0666419 l2_loss: 0.018468436 total_loss: 0.08511034  time: 360.85954689979553 step: 73501 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.0738035 l2_loss: 0.018465433 total_loss: 0.09226893  time: 358.5485236644745 step: 73601 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.065715745 l2_loss: 0.018460037 total_loss: 0.08417578  time: 362.6429307460785 step: 73701 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.07160771 l2_loss: 0.018456338 total_loss: 0.09006405  time: 357.2872703075409 step: 73801 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.08386639 l2_loss: 0.018455507 total_loss: 0.10232189  time: 358.1385416984558 step: 73901 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.07476947 l2_loss: 0.018452452 total_loss: 0.09322192  time: 354.51294708251953 step: 74001 lr: 2.4e-05
+[1,0]<stdout>:check point saved===================================
+[1,0]<stdout>:model_loss: 0.10091125 l2_loss: 0.018446477 total_loss: 0.11935773  time: 363.23596811294556 step: 74101 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.10676507 l2_loss: 0.018441362 total_loss: 0.12520643  time: 364.34061884880066 step: 74201 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.10509751 l2_loss: 0.018438278 total_loss: 0.12353579  time: 363.17278361320496 step: 74301 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.09105378 l2_loss: 0.018436026 total_loss: 0.1094898  time: 361.26500844955444 step: 74401 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.076847374 l2_loss: 0.018432712 total_loss: 0.09528009  time: 357.5193061828613 step: 74501 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.05437645 l2_loss: 0.018433994 total_loss: 0.07281044  time: 360.2270174026489 step: 74601 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.07093236 l2_loss: 0.018432299 total_loss: 0.089364655  time: 362.0837330818176 step: 74701 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.120181 l2_loss: 0.018428084 total_loss: 0.13860908  time: 360.3188259601593 step: 74801 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.11866293 l2_loss: 0.01843158 total_loss: 0.13709451  time: 365.53041100502014 step: 74901 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.09031909 l2_loss: 0.018438028 total_loss: 0.108757116  time: 359.29656982421875 step: 75001 lr: 2.4e-05
+[1,0]<stdout>:check point saved===================================
+[1,0]<stdout>:model_loss: 0.13448021 l2_loss: 0.018443743 total_loss: 0.15292396  time: 364.21238017082214 step: 75101 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.105875954 l2_loss: 0.018449085 total_loss: 0.12432504  time: 359.213161945343 step: 75201 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.1392603 l2_loss: 0.018454604 total_loss: 0.1577149  time: 358.3454828262329 step: 75301 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.107609145 l2_loss: 0.018465541 total_loss: 0.12607469  time: 357.3981239795685 step: 75401 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.072206624 l2_loss: 0.018468238 total_loss: 0.09067486  time: 360.30062532424927 step: 75501 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.10902887 l2_loss: 0.01847291 total_loss: 0.12750179  time: 357.9729413986206 step: 75601 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.11212049 l2_loss: 0.01847297 total_loss: 0.13059345  time: 358.2171297073364 step: 75701 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.05125804 l2_loss: 0.018475365 total_loss: 0.0697334  time: 359.34793043136597 step: 75801 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.0425147 l2_loss: 0.018475475 total_loss: 0.060990177  time: 363.55757093429565 step: 75901 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.048549928 l2_loss: 0.018471668 total_loss: 0.06702159  time: 362.17383646965027 step: 76001 lr: 2.4e-05
+[1,0]<stdout>:check point saved===================================
+[1,0]<stdout>:model_loss: 0.047134187 l2_loss: 0.018469803 total_loss: 0.06560399  time: 361.3799624443054 step: 76101 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.03061933 l2_loss: 0.01846402 total_loss: 0.049083352  time: 366.0016624927521 step: 76201 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.07754248 l2_loss: 0.018454434 total_loss: 0.09599691  time: 362.4010214805603 step: 76301 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.08096219 l2_loss: 0.018445492 total_loss: 0.09940768  time: 363.1593744754791 step: 76401 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.051278103 l2_loss: 0.018432526 total_loss: 0.06971063  time: 362.2893137931824 step: 76501 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.029902764 l2_loss: 0.018420186 total_loss: 0.04832295  time: 362.04891324043274 step: 76601 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.056778684 l2_loss: 0.018408297 total_loss: 0.07518698  time: 358.9184923171997 step: 76701 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.124733895 l2_loss: 0.018395985 total_loss: 0.14312989  time: 365.17990374565125 step: 76801 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.07600434 l2_loss: 0.018382885 total_loss: 0.094387226  time: 364.0119163990021 step: 76901 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.092985645 l2_loss: 0.01837404 total_loss: 0.111359686  time: 359.6516795158386 step: 77001 lr: 2.4e-05
+[1,0]<stdout>:check point saved===================================
+[1,0]<stdout>:model_loss: 0.10196601 l2_loss: 0.018360022 total_loss: 0.12032603  time: 361.21796202659607 step: 77101 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.101092294 l2_loss: 0.018346686 total_loss: 0.119438976  time: 366.42257380485535 step: 77201 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.09129695 l2_loss: 0.018334527 total_loss: 0.10963148  time: 368.3344919681549 step: 77301 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.12626961 l2_loss: 0.018327216 total_loss: 0.14459683  time: 369.26281905174255 step: 77401 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.10416288 l2_loss: 0.018338067 total_loss: 0.12250095  time: 362.9309582710266 step: 77501 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.08370869 l2_loss: 0.01834859 total_loss: 0.10205728  time: 364.33508372306824 step: 77601 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.09391731 l2_loss: 0.018350668 total_loss: 0.11226798  time: 368.2297296524048 step: 77701 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.13931409 l2_loss: 0.018355092 total_loss: 0.15766917  time: 368.5224816799164 step: 77801 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.12063807 l2_loss: 0.018357342 total_loss: 0.13899541  time: 370.76986598968506 step: 77901 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.1379928 l2_loss: 0.018361626 total_loss: 0.15635443  time: 368.101380109787 step: 78001 lr: 2.4e-05
+[1,0]<stdout>:check point saved===================================
+[1,0]<stdout>:model_loss: 0.10318368 l2_loss: 0.018368227 total_loss: 0.12155191  time: 362.82852959632874 step: 78101 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.07314346 l2_loss: 0.018369403 total_loss: 0.09151286  time: 365.4295060634613 step: 78201 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.08216832 l2_loss: 0.01837401 total_loss: 0.10054233  time: 359.4550414085388 step: 78301 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.13584724 l2_loss: 0.01837793 total_loss: 0.15422517  time: 364.80895805358887 step: 78401 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.10777653 l2_loss: 0.018383062 total_loss: 0.1261596  time: 367.5866801738739 step: 78501 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.15098609 l2_loss: 0.018388858 total_loss: 0.16937494  time: 364.8447434902191 step: 78601 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.08404261 l2_loss: 0.018390337 total_loss: 0.102432944  time: 363.84305000305176 step: 78701 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.094914705 l2_loss: 0.018392494 total_loss: 0.1133072  time: 359.49198389053345 step: 78801 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.08953066 l2_loss: 0.018392485 total_loss: 0.10792315  time: 359.4511008262634 step: 78901 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.07093745 l2_loss: 0.018391635 total_loss: 0.08932908  time: 356.59744572639465 step: 79001 lr: 2.4e-05
+[1,0]<stdout>:check point saved===================================
+[1,0]<stdout>:model_loss: 0.10661464 l2_loss: 0.018391097 total_loss: 0.12500574  time: 362.032502412796 step: 79101 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.12258517 l2_loss: 0.018389847 total_loss: 0.14097501  time: 361.35379362106323 step: 79201 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.08748673 l2_loss: 0.01838852 total_loss: 0.10587525  time: 361.3192973136902 step: 79301 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.0696623 l2_loss: 0.018389298 total_loss: 0.0880516  time: 360.37045669555664 step: 79401 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.106526166 l2_loss: 0.018391222 total_loss: 0.12491739  time: 361.45837903022766 step: 79501 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.107178465 l2_loss: 0.018389277 total_loss: 0.12556773  time: 359.6627368927002 step: 79601 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.08061159 l2_loss: 0.018381197 total_loss: 0.09899278  time: 360.86119079589844 step: 79701 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.075414695 l2_loss: 0.018376889 total_loss: 0.09379158  time: 367.04860854148865 step: 79801 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.09130682 l2_loss: 0.018374054 total_loss: 0.109680876  time: 362.0240626335144 step: 79901 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.08871998 l2_loss: 0.018370789 total_loss: 0.10709077  time: 360.38597416877747 step: 80001 lr: 2.4e-05
+[1,0]<stdout>:check point saved===================================
+[1,0]<stdout>:model_loss: 0.10832602 l2_loss: 0.018375803 total_loss: 0.12670182  time: 360.36681389808655 step: 80101 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.061291184 l2_loss: 0.01837808 total_loss: 0.07966927  time: 362.5849537849426 step: 80201 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.0695145 l2_loss: 0.018372227 total_loss: 0.08788672  time: 361.05028796195984 step: 80301 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.08302391 l2_loss: 0.018366916 total_loss: 0.10139083  time: 358.53511452674866 step: 80401 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.09208981 l2_loss: 0.018361485 total_loss: 0.110451296  time: 358.57059383392334 step: 80501 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.11420727 l2_loss: 0.018356025 total_loss: 0.1325633  time: 362.5269455909729 step: 80601 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.067147434 l2_loss: 0.018351667 total_loss: 0.0854991  time: 356.473881483078 step: 80701 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.06286036 l2_loss: 0.01835441 total_loss: 0.08121477  time: 354.6889171600342 step: 80801 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.0483068 l2_loss: 0.018362444 total_loss: 0.06666924  time: 358.1019649505615 step: 80901 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.092780165 l2_loss: 0.018362954 total_loss: 0.11114312  time: 362.646253824234 step: 81001 lr: 2.4e-05
+[1,0]<stdout>:check point saved===================================
+[1,0]<stdout>:model_loss: 0.090621226 l2_loss: 0.018362131 total_loss: 0.10898335  time: 361.26258969306946 step: 81101 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.11485219 l2_loss: 0.018357186 total_loss: 0.13320938  time: 360.7789123058319 step: 81201 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.076322906 l2_loss: 0.018353326 total_loss: 0.094676234  time: 360.248281955719 step: 81301 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.07645961 l2_loss: 0.018348414 total_loss: 0.09480803  time: 359.8328399658203 step: 81401 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.046273727 l2_loss: 0.018344652 total_loss: 0.06461838  time: 363.01439094543457 step: 81501 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.11580473 l2_loss: 0.018341642 total_loss: 0.13414638  time: 361.89807295799255 step: 81601 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.083736196 l2_loss: 0.018339654 total_loss: 0.10207585  time: 358.3236448764801 step: 81701 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.07752555 l2_loss: 0.01833991 total_loss: 0.09586546  time: 357.55836606025696 step: 81801 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.0729095 l2_loss: 0.018337622 total_loss: 0.09124712  time: 359.25364804267883 step: 81901 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.0749053 l2_loss: 0.018335268 total_loss: 0.09324057  time: 358.7328541278839 step: 82001 lr: 2.4e-05
+[1,0]<stdout>:check point saved===================================
+[1,0]<stdout>:model_loss: 0.10144965 l2_loss: 0.01833517 total_loss: 0.119784825  time: 360.2781479358673 step: 82101 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.07921175 l2_loss: 0.018337952 total_loss: 0.0975497  time: 357.36999225616455 step: 82201 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.09055897 l2_loss: 0.018338708 total_loss: 0.10889768  time: 360.7907977104187 step: 82301 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.121984854 l2_loss: 0.018339584 total_loss: 0.14032444  time: 360.320209980011 step: 82401 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.111482695 l2_loss: 0.01834256 total_loss: 0.12982525  time: 362.4021315574646 step: 82501 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.069169275 l2_loss: 0.018341646 total_loss: 0.08751092  time: 361.59771966934204 step: 82601 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.0905114 l2_loss: 0.018353911 total_loss: 0.108865306  time: 359.2251648902893 step: 82701 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.08374007 l2_loss: 0.01835776 total_loss: 0.10209783  time: 358.0532126426697 step: 82801 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.16846216 l2_loss: 0.018361501 total_loss: 0.18682367  time: 358.5817382335663 step: 82901 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.18763213 l2_loss: 0.018374866 total_loss: 0.20600699  time: 363.96704387664795 step: 83001 lr: 2.4e-05
+[1,0]<stdout>:check point saved===================================
+[1,0]<stdout>:model_loss: 0.09923582 l2_loss: 0.018395226 total_loss: 0.11763105  time: 360.25631856918335 step: 83101 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.07510683 l2_loss: 0.018391574 total_loss: 0.0934984  time: 361.77941823005676 step: 83201 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.100621685 l2_loss: 0.018384418 total_loss: 0.119006105  time: 358.951696395874 step: 83301 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.12301877 l2_loss: 0.018377252 total_loss: 0.14139602  time: 363.26919436454773 step: 83401 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.057806995 l2_loss: 0.018368466 total_loss: 0.07617546  time: 361.642644405365 step: 83501 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.1511294 l2_loss: 0.018364742 total_loss: 0.16949414  time: 359.1750690937042 step: 83601 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.1475636 l2_loss: 0.018359613 total_loss: 0.16592322  time: 359.4373288154602 step: 83701 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.13775732 l2_loss: 0.018353112 total_loss: 0.15611044  time: 361.6016352176666 step: 83801 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.10077133 l2_loss: 0.01834444 total_loss: 0.11911577  time: 358.0085594654083 step: 83901 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.06797589 l2_loss: 0.01833356 total_loss: 0.086309455  time: 359.7411777973175 step: 84001 lr: 2.4e-05
+[1,0]<stdout>:check point saved===================================
+[1,0]<stdout>:model_loss: 0.09323521 l2_loss: 0.018321304 total_loss: 0.111556515  time: 360.96350502967834 step: 84101 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.10829081 l2_loss: 0.01831015 total_loss: 0.12660095  time: 358.63734126091003 step: 84201 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.09050439 l2_loss: 0.018304028 total_loss: 0.10880842  time: 358.3737301826477 step: 84301 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.14003307 l2_loss: 0.01829571 total_loss: 0.15832877  time: 361.0391755104065 step: 84401 lr: 2.4e-05
+[1,0]<stdout>:model_loss: 0.11060771 l2_loss: 0.01829345 total_loss: 0.12890117  time: 366.2780511379242 step: 84501 lr: 2.4e-05
+--------------------------------------------------------------------------
+Primary job  terminated normally, but 1 process returned
+a non-zero exit code. Per user-direction, the job has been aborted.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+mpirun noticed that process rank 0 with PID 0 on node dlm38 exited on signal 9 (Killed).
+--------------------------------------------------------------------------
